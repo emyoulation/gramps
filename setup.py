@@ -288,6 +288,7 @@ package_core = [
     "gramps.gen.utils.docgen",
     "gramps.test",
     "gramps.plugins",
+    "gramps.plugins.cite",
     "gramps.plugins.db",
     "gramps.plugins.db.bsddb",
     "gramps.plugins.db.dbapi",
@@ -304,6 +305,7 @@ package_core = [
     "gramps.plugins.rel",
     "gramps.plugins.sidebar",
     "gramps.plugins.textreport",
+    "gramps.plugins.thumbnailer",
     "gramps.plugins.tool",
     "gramps.plugins.view",
     "gramps.plugins.webreport",
@@ -369,6 +371,7 @@ IMAGE_WEB.extend(glob.glob(os.path.join("images", "webstuff", "*.ico")))
 IMAGE_WEB.extend(glob.glob(os.path.join("images", "webstuff", "*.gif")))
 GRAMPS_CSS = glob.glob(os.path.join("data", "*.css"))
 CSS_FILES = glob.glob(os.path.join("data", "css", "*.css"))
+JS_FILES = glob.glob(os.path.join("data", "css", "*.js"))
 SWANKY_PURSE = glob.glob(os.path.join("data", "css", "swanky-purse", "*.css"))
 SWANKY_IMG = glob.glob(os.path.join("data", "css", "swanky-purse", "images", "*.png"))
 data_files_core.append(("share/doc/gramps", DOC_FILES))
@@ -376,7 +379,7 @@ data_files_core.append(("share/doc/gramps/example/gedcom", GEDCOM_FILES))
 data_files_core.append(("share/doc/gramps/example/gramps", GRAMPS_FILES))
 data_files_core.append(("share/gramps/images/webstuff", IMAGE_WEB))
 data_files_core.append(("share/gramps", GRAMPS_CSS))
-data_files_core.append(("share/gramps/css", CSS_FILES))
+data_files_core.append(("share/gramps/css", CSS_FILES + JS_FILES))
 data_files_core.append(("share/gramps/css/swanky-purse", SWANKY_PURSE))
 data_files_core.append(("share/gramps/css/swanky-purse/images", SWANKY_IMG))
 

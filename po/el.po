@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 4.0.3.\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-22 00:23+0100\n"
+"POT-Creation-Date: 2023-08-29 23:01+0100\n"
 "PO-Revision-Date: 2021-05-22 18:06+0000\n"
 "Last-Translator: Jacque Fresco <aidter@use.startmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/gramps-project/"
@@ -1672,7 +1672,7 @@ msgstr "Σφάλμα κατά την ανάλυση των παραμέτρων"
 
 #: ../gramps/cli/clidbman.py:73 ../gramps/cli/clidbman.py:172
 #: ../gramps/cli/clidbman.py:174 ../gramps/gui/clipboard.py:201
-#: ../gramps/gui/clipboard.py:202 ../gramps/gui/plug/_windows.py:1452
+#: ../gramps/gui/clipboard.py:202 ../gramps/gui/plug/_windows.py:1459
 msgid "Unavailable"
 msgstr "Μη διαθέσιμο"
 
@@ -1719,8 +1719,8 @@ msgstr "Οικογενειακό Δέντρο «%s»:"
 #. Translators: needed for French, ignore otherwise
 #: ../gramps/cli/clidbman.py:222 ../gramps/gen/plug/report/utils.py:182
 #: ../gramps/gui/editors/editattribute.py:140
-#: ../gramps/gui/editors/editname.py:344 ../gramps/gui/plug/_windows.py:1657
-#: ../gramps/gui/plug/_windows.py:2101
+#: ../gramps/gui/editors/editname.py:341 ../gramps/gui/plug/_windows.py:1664
+#: ../gramps/gui/plug/_windows.py:2108
 #: ../gramps/plugins/gramplet/whatsnext.py:495
 #: ../gramps/plugins/textreport/birthdayreport.py:213
 #: ../gramps/plugins/textreport/birthdayreport.py:218
@@ -1792,7 +1792,7 @@ msgstr ""
 "\n"
 
 #: ../gramps/cli/clidbman.py:585 ../gramps/gui/configure.py:2281
-#: ../gramps/gui/plug/_windows.py:722
+#: ../gramps/gui/plug/_windows.py:729
 msgid "Never"
 msgstr "Ποτέ"
 
@@ -2062,8 +2062,8 @@ msgstr "   Οι έγκυρες επιλογές είναι:"
 #: ../gramps/plugins/cite/default.py:89 ../gramps/plugins/cite/default.py:96
 #: ../gramps/plugins/cite/default.py:102
 #: ../gramps/plugins/drawreport/descendtree.py:394
-#: ../gramps/plugins/drawreport/fanchart.py:417
-#: ../gramps/plugins/drawreport/fanchart.py:433
+#: ../gramps/plugins/drawreport/fanchart.py:411
+#: ../gramps/plugins/drawreport/fanchart.py:427
 #: ../gramps/plugins/gramplet/persondetails.py:245
 #: ../gramps/plugins/gramplet/whatsnext.py:371
 #: ../gramps/plugins/gramplet/whatsnext.py:394
@@ -2456,9 +2456,6 @@ msgstr ""
 #. Translators: If there is no special inflection for
 #. "from <Month>" in your language, DON'T translate this.
 #. Otherwise, translate to "from" in ENGLISH!!! ENGLISH!!!
-#. Translators: If there is no special inflection for
-#. "after <Month>" in your language, DON'T translate this.
-#. Otherwise, translate to "after" in ENGLISH!!! ENGLISH!!!
 #: ../gramps/gen/datehandler/_datedisplay.py:413
 #: ../gramps/gen/datehandler/_datedisplay.py:499
 msgctxt "from-date"
@@ -2468,9 +2465,6 @@ msgstr ""
 #. Translators: If there is no special inflection for
 #. "to <Month>" in your language, DON'T translate this.
 #. Otherwise, translate to "to" in ENGLISH!!! ENGLISH!!!
-#. Translators: If there is no special inflection for
-#. "after <Month>" in your language, DON'T translate this.
-#. Otherwise, translate to "after" in ENGLISH!!! ENGLISH!!!
 #: ../gramps/gen/datehandler/_datedisplay.py:420
 #: ../gramps/gen/datehandler/_datedisplay.py:504
 #, fuzzy
@@ -5098,7 +5092,7 @@ msgstr "Τύπος:"
 
 #: ../gramps/gen/filters/rules/media/_hasmedia.py:50
 #: ../gramps/gui/glade/mergemedia.glade:245
-#: ../gramps/gui/glade/mergemedia.glade:261 ../gramps/gui/viewmanager.py:1808
+#: ../gramps/gui/glade/mergemedia.glade:261 ../gramps/gui/viewmanager.py:1805
 msgid "Path:"
 msgstr "Διαδρομή:"
 
@@ -7060,8 +7054,8 @@ msgstr "Σημειώσεις"
 #: ../gramps/gui/glade/editmedia.glade:254
 #: ../gramps/gui/glade/editmediaref.glade:582
 #: ../gramps/gui/glade/editmediaref.glade:592
-#: ../gramps/gui/glade/editname.glade:571
-#: ../gramps/gui/glade/editname.glade:581
+#: ../gramps/gui/glade/editname.glade:572
+#: ../gramps/gui/glade/editname.glade:582
 #: ../gramps/gui/glade/editplacename.glade:132
 #: ../gramps/gui/glade/editplacename.glade:142
 #: ../gramps/gui/selectors/selectevent.py:69
@@ -7243,8 +7237,8 @@ msgstr "Κάστα"
 #: ../gramps/gui/editors/displaytabs/webembedlist.py:68
 #: ../gramps/gui/filters/sidebar/_eventsidebarfilter.py:113
 #: ../gramps/gui/glade/rule.glade:931 ../gramps/gui/glade/styleeditor.glade:278
-#: ../gramps/gui/plug/_windows.py:1018 ../gramps/gui/plug/_windows.py:1133
-#: ../gramps/gui/plug/_windows.py:1595 ../gramps/gui/plug/_windows.py:2088
+#: ../gramps/gui/plug/_windows.py:1025 ../gramps/gui/plug/_windows.py:1140
+#: ../gramps/gui/plug/_windows.py:1602 ../gramps/gui/plug/_windows.py:2095
 #: ../gramps/gui/selectors/selectevent.py:71
 #: ../gramps/plugins/gramplet/coordinates.py:100
 #: ../gramps/plugins/gramplet/events.py:103
@@ -8520,8 +8514,8 @@ msgstr "Πολιτική ένωση ζεύγους"
 #: ../gramps/gui/filters/sidebar/_placesidebarfilter.py:118
 #: ../gramps/gui/filters/sidebar/_reposidebarfilter.py:114
 #: ../gramps/gui/merge/mergeperson.py:273 ../gramps/gui/plug/_windows.py:220
-#: ../gramps/gui/plug/_windows.py:1007 ../gramps/gui/plug/_windows.py:1130
-#: ../gramps/gui/plug/_windows.py:2086
+#: ../gramps/gui/plug/_windows.py:1014 ../gramps/gui/plug/_windows.py:1137
+#: ../gramps/gui/plug/_windows.py:2093
 #: ../gramps/gui/plug/report/_bookdialog.py:398
 #: ../gramps/gui/plug/report/_bookdialog.py:402
 #: ../gramps/gui/selectors/selectevent.py:67
@@ -8678,8 +8672,8 @@ msgstr "Ναός"
 #: ../gramps/gen/lib/ldsord.py:206 ../gramps/gui/dbman.py:419
 #: ../gramps/gui/editors/displaytabs/familyldsembedlist.py:54
 #: ../gramps/gui/editors/displaytabs/ldsembedlist.py:64
-#: ../gramps/gui/plug/_windows.py:224 ../gramps/gui/plug/_windows.py:1011
-#: ../gramps/gui/plug/_windows.py:1073
+#: ../gramps/gui/plug/_windows.py:224 ../gramps/gui/plug/_windows.py:1018
+#: ../gramps/gui/plug/_windows.py:1080
 #: ../gramps/plugins/quickview/ageondate.py:54
 #: ../gramps/plugins/textreport/indivcomplete.py:531
 #: ../gramps/plugins/textreport/indivcomplete.py:736
@@ -8689,7 +8683,7 @@ msgid "Status"
 msgstr "Κατάσταση"
 
 #: ../gramps/gen/lib/location.py:89 ../gramps/gen/lib/nameorigintype.py:88
-#: ../gramps/gui/clipboard.py:331 ../gramps/gui/plug/_windows.py:1600
+#: ../gramps/gui/clipboard.py:331 ../gramps/gui/plug/_windows.py:1607
 msgid "Location"
 msgstr "Τοποθεσία"
 
@@ -8734,14 +8728,14 @@ msgstr "Θρήσκευμα"
 #: ../gramps/gui/editors/displaytabs/placenameembedlist.py:64
 #: ../gramps/gui/editors/displaytabs/placerefembedlist.py:61
 #: ../gramps/gui/editors/editfamily.py:139
-#: ../gramps/gui/editors/editname.py:344
+#: ../gramps/gui/editors/editname.py:341
 #: ../gramps/gui/editors/filtereditor.py:912
 #: ../gramps/gui/editors/filtereditor.py:1092
 #: ../gramps/gui/filters/sidebar/_personsidebarfilter.py:158
 #: ../gramps/gui/filters/sidebar/_placesidebarfilter.py:117
 #: ../gramps/gui/filters/sidebar/_reposidebarfilter.py:113
-#: ../gramps/gui/plug/_guioptions.py:1185 ../gramps/gui/plug/_windows.py:1014
-#: ../gramps/gui/plug/_windows.py:2087
+#: ../gramps/gui/plug/_guioptions.py:1185 ../gramps/gui/plug/_windows.py:1021
+#: ../gramps/gui/plug/_windows.py:2094
 #: ../gramps/gui/plug/report/_bookdialog.py:398
 #: ../gramps/gui/selectors/selectperson.py:99
 #: ../gramps/gui/selectors/selectplace.py:68
@@ -8988,12 +8982,12 @@ msgstr "Μορφή"
 #: ../gramps/gui/glade/editeventref.glade:601
 #: ../gramps/gui/glade/editmediaref.glade:342
 #: ../gramps/gui/glade/editmediaref.glade:756
-#: ../gramps/gui/glade/editname.glade:671
+#: ../gramps/gui/glade/editname.glade:672
 #: ../gramps/gui/glade/editperson.glade:382
 #: ../gramps/gui/glade/editplaceref.glade:161
 #: ../gramps/gui/glade/editplaceref.glade:665
 #: ../gramps/gui/glade/editreporef.glade:225
-#: ../gramps/gui/glade/editreporef.glade:445 ../gramps/gui/plug/_windows.py:686
+#: ../gramps/gui/glade/editreporef.glade:445 ../gramps/gui/plug/_windows.py:693
 #: ../gramps/plugins/tool/verify.glade:406
 msgid "General"
 msgstr "Γενικά"
@@ -9017,7 +9011,7 @@ msgid "Source text"
 msgstr "Πηγαίο κείμενο"
 
 #: ../gramps/gen/lib/notetype.py:83 ../gramps/gen/plug/_pluginreg.py:115
-#: ../gramps/gui/logger/_errorview.py:190
+#: ../gramps/gui/logger/_errorview.py:189
 msgid "Report"
 msgstr "Αναφορά"
 
@@ -9658,7 +9652,7 @@ msgid "Priority"
 msgstr ""
 
 #: ../gramps/gen/lib/url.py:90 ../gramps/gui/clipboard.py:428
-#: ../gramps/gui/plug/_windows.py:796
+#: ../gramps/gui/plug/_windows.py:803
 msgid "Url"
 msgstr "Διεύθυνση Διαδικτύου"
 
@@ -10419,7 +10413,7 @@ msgstr "Δε βρέθηκαν γονείς"
 
 #: ../gramps/gen/plug/docgen/treedoc.py:93 ../gramps/gui/configure.py:105
 #: ../gramps/gui/configure.py:187 ../gramps/gui/configure.py:2591
-#: ../gramps/gui/displaystate.py:429 ../gramps/gui/views/pageview.py:642
+#: ../gramps/gui/displaystate.py:430 ../gramps/gui/views/pageview.py:642
 msgid "Preferences"
 msgstr "Προτιμήσεις"
 
@@ -10730,7 +10724,7 @@ msgid "Endnotes"
 msgstr "Βιβλιογραφικές αναφορές"
 
 #. Translators: needed for French, ignore otherwise
-#: ../gramps/gen/plug/report/endnotes.py:180
+#: ../gramps/gen/plug/report/endnotes.py:181
 #: ../gramps/gui/editors/editfamily.py:1132
 #: ../gramps/gui/editors/editfamily.py:1139
 #: ../gramps/gui/plug/report/_docreportdialog.py:185
@@ -10855,7 +10849,7 @@ msgstr "Να μην συμπεριληφθεί ο τίτλος"
 
 #: ../gramps/gen/plug/report/stdoptions.py:371
 #: ../gramps/gen/plug/report/stdoptions.py:401
-#: ../gramps/gui/viewmanager.py:1870
+#: ../gramps/gui/viewmanager.py:1867
 #: ../gramps/plugins/graph/gvfamilylines.py:263
 #: ../gramps/plugins/graph/gvrelgraph.py:944
 #: ../gramps/plugins/textreport/detancestralreport.py:920
@@ -12252,7 +12246,7 @@ msgstr "Σύρετε και αφήστε τις στήλες για να αλλ�
 
 #: ../gramps/gui/columnorder.py:117 ../gramps/gui/configure.py:2477
 #: ../gramps/gui/configure.py:2505 ../gramps/gui/configure.py:2534
-#: ../gramps/gui/plug/_dialogs.py:144 ../gramps/gui/viewmanager.py:1953
+#: ../gramps/gui/plug/_dialogs.py:144 ../gramps/gui/viewmanager.py:1947
 #: ../gramps/plugins/lib/maps/geography.py:1113
 #: ../gramps/plugins/lib/maps/geography.py:1535
 msgid "_Apply"
@@ -12296,10 +12290,10 @@ msgstr "Εμφάνιση επεξεργασίας ονομάτων"
 #: ../gramps/gui/glade/plugins.glade:22 ../gramps/gui/glade/rule.glade:24
 #: ../gramps/gui/glade/rule.glade:1024 ../gramps/gui/glade/tipofday.glade:117
 #: ../gramps/gui/glade/updateaddons.glade:25 ../gramps/gui/grampsgui.py:58
-#: ../gramps/gui/plug/_windows.py:356 ../gramps/gui/plug/_windows.py:984
-#: ../gramps/gui/plug/_windows.py:1663 ../gramps/gui/plug/_windows.py:1723
+#: ../gramps/gui/plug/_windows.py:364 ../gramps/gui/plug/_windows.py:991
+#: ../gramps/gui/plug/_windows.py:1670 ../gramps/gui/plug/_windows.py:1730
 #: ../gramps/gui/plug/quick/_textbufdoc.py:71 ../gramps/gui/undohistory.py:88
-#: ../gramps/gui/viewmanager.py:1804 ../gramps/gui/views/bookmarks.py:316
+#: ../gramps/gui/viewmanager.py:1801 ../gramps/gui/views/bookmarks.py:316
 #: ../gramps/gui/views/tags.py:523 ../gramps/gui/widgets/grampletbar.py:720
 #: ../gramps/gui/widgets/grampletpane.py:258
 #: ../gramps/plugins/lib/maps/placeselection.py:122
@@ -12397,8 +12391,8 @@ msgstr "Άκυρος η ατελής προσδιορισμός μορφής."
 #: ../gramps/gui/configure.py:1633 ../gramps/gui/configure.py:1638
 #: ../gramps/gui/configure.py:1659 ../gramps/gui/configure.py:1675
 #: ../gramps/gui/configure.py:2203 ../gramps/gui/configure.py:2292
-#: ../gramps/gui/plug/_windows.py:732 ../gramps/gui/plug/_windows.py:752
-#: ../gramps/gui/plug/_windows.py:788 ../gramps/gui/plug/_windows.py:796
+#: ../gramps/gui/plug/_windows.py:739 ../gramps/gui/plug/_windows.py:759
+#: ../gramps/gui/plug/_windows.py:795 ../gramps/gui/plug/_windows.py:803
 #: ../gramps/gui/views/navigationview.py:351
 #: ../gramps/plugins/gramplet/sessionloggramplet.py:110
 #, python-format
@@ -12445,8 +12439,8 @@ msgstr ""
 #: ../gramps/gui/glade/mergesource.glade:53
 #: ../gramps/gui/glade/reorder.glade:54 ../gramps/gui/glade/rule.glade:41
 #: ../gramps/gui/glade/rule.glade:351 ../gramps/gui/glade/rule.glade:781
-#: ../gramps/gui/grampsgui.py:58 ../gramps/gui/logger/_errorview.py:191
-#: ../gramps/gui/plug/_windows.py:357
+#: ../gramps/gui/grampsgui.py:58 ../gramps/gui/logger/_errorview.py:190
+#: ../gramps/gui/plug/_windows.py:365
 #: ../gramps/gui/plug/report/_reportdialog.py:167
 #: ../gramps/gui/undohistory.py:84 ../gramps/gui/views/bookmarks.py:317
 #: ../gramps/gui/views/tags.py:524 ../gramps/gui/views/tags.py:745
@@ -12472,7 +12466,7 @@ msgstr "Περιφέρεια/Νομός:"
 msgid "ZIP/Postal Code"
 msgstr "ZIP/Ταχυδρομικός Κωδικός:"
 
-#: ../gramps/gui/configure.py:734 ../gramps/gui/plug/_windows.py:1598
+#: ../gramps/gui/configure.py:734 ../gramps/gui/plug/_windows.py:1605
 #: ../gramps/plugins/view/repoview.py:96
 msgid "Email"
 msgstr "Ηλεκτρονική διεύθυνση"
@@ -12752,7 +12746,7 @@ msgstr "Εμφά_νιση ως:"
 #: ../gramps/gui/glade/editperson.glade:12
 #: ../gramps/gui/glade/editperson.glade:516 ../gramps/gui/glade/rule.glade:463
 #: ../gramps/gui/glade/styleeditor.glade:1903
-#: ../gramps/gui/plug/_windows.py:1037 ../gramps/gui/plug/_windows.py:1096
+#: ../gramps/gui/plug/_windows.py:1044 ../gramps/gui/plug/_windows.py:1103
 #: ../gramps/plugins/gramplet/ancestor.py:122
 #: ../gramps/plugins/gramplet/descendant.py:119
 msgid "Edit"
@@ -13336,12 +13330,12 @@ msgstr "Επιλογή καταλόγου μέσων"
 #: ../gramps/gui/glade/reorder.glade:22 ../gramps/gui/glade/rule.glade:316
 #: ../gramps/gui/glade/rule.glade:747 ../gramps/gui/glade/styleeditor.glade:86
 #: ../gramps/gui/glade/styleeditor.glade:1737
-#: ../gramps/gui/logger/_errorview.py:189 ../gramps/gui/plug/_guioptions.py:84
-#: ../gramps/gui/plug/_guioptions.py:1757 ../gramps/gui/plug/_windows.py:806
-#: ../gramps/gui/plug/_windows.py:1374
+#: ../gramps/gui/logger/_errorview.py:188 ../gramps/gui/plug/_guioptions.py:84
+#: ../gramps/gui/plug/_guioptions.py:1757 ../gramps/gui/plug/_windows.py:813
+#: ../gramps/gui/plug/_windows.py:1381
 #: ../gramps/gui/plug/report/_fileentry.py:68
 #: ../gramps/gui/plug/report/_reportdialog.py:170 ../gramps/gui/utils.py:265
-#: ../gramps/gui/viewmanager.py:1953 ../gramps/gui/views/listview.py:1250
+#: ../gramps/gui/viewmanager.py:1947 ../gramps/gui/views/listview.py:1250
 #: ../gramps/gui/views/navigationview.py:357 ../gramps/gui/views/tags.py:746
 #: ../gramps/gui/widgets/progressdialog.py:440
 #: ../gramps/plugins/importer/importprogen.glade:1714
@@ -13358,7 +13352,7 @@ msgstr "Ακύρωση"
 msgid "Select database directory"
 msgstr "Επιλογή καταλόγου βάσης δεδομένων"
 
-#: ../gramps/gui/configure.py:2528 ../gramps/gui/viewmanager.py:1948
+#: ../gramps/gui/configure.py:2528 ../gramps/gui/viewmanager.py:1942
 msgid "Select backup directory"
 msgstr "Επιλογή καταλόγου του αντιγράφου ασφαλείας"
 
@@ -13634,9 +13628,9 @@ msgstr "Δεν υπάρχει καμμία πληροφορία για την η
 #: ../gramps/gui/glade/reorder.glade:38 ../gramps/gui/glade/rule.glade:333
 #: ../gramps/gui/glade/rule.glade:764 ../gramps/gui/glade/styleeditor.glade:103
 #: ../gramps/gui/glade/styleeditor.glade:1754
-#: ../gramps/gui/plug/_guioptions.py:84 ../gramps/gui/plug/_windows.py:806
+#: ../gramps/gui/plug/_guioptions.py:84 ../gramps/gui/plug/_windows.py:813
 #: ../gramps/gui/plug/report/_reportdialog.py:173 ../gramps/gui/utils.py:279
-#: ../gramps/gui/viewmanager.py:1805 ../gramps/gui/views/tags.py:747
+#: ../gramps/gui/viewmanager.py:1802 ../gramps/gui/views/tags.py:747
 #: ../gramps/plugins/tool/check.py:828 ../gramps/plugins/tool/patchnames.py:152
 #: ../gramps/plugins/tool/populatesources.py:99
 #: ../gramps/plugins/tool/testcasegenerator.py:397
@@ -13950,105 +13944,105 @@ msgstr ""
 "Παρακαλούμε μην κλείνετε βεβιασμένα τον σημαντικό αυτό διάλογο.\n"
 "Αντιθέτως, προτιμήστε μία από τις διαθέσιμες επιλογές"
 
-#: ../gramps/gui/displaystate.py:286
+#: ../gramps/gui/displaystate.py:287
 #, fuzzy
 msgid "Cannot load database"
 msgstr "Αδύνατο το άνοιγμα της βάσης δεδομένων"
 
-#: ../gramps/gui/displaystate.py:409
+#: ../gramps/gui/displaystate.py:410
 msgid "Open the Clipboard dialog"
 msgstr "Άνοιγμα διάλογου προχείρου"
 
-#: ../gramps/gui/displaystate.py:410 ../gramps/gui/grampsgui.py:58
+#: ../gramps/gui/displaystate.py:411 ../gramps/gui/grampsgui.py:58
 msgid "Clip_board"
 msgstr "Πρό_χειρο"
 
-#: ../gramps/gui/displaystate.py:415
+#: ../gramps/gui/displaystate.py:416
 msgid "Open the reports dialog"
 msgstr "Άνοιγμα διάλογου αναφορών"
 
-#: ../gramps/gui/displaystate.py:416
+#: ../gramps/gui/displaystate.py:417
 msgid "Reports"
 msgstr "Αναφορές"
 
-#: ../gramps/gui/displaystate.py:418
+#: ../gramps/gui/displaystate.py:419
 msgid "Open the tools dialog"
 msgstr "Άνοιγμα διάλογου εργαλείων"
 
-#: ../gramps/gui/displaystate.py:418
+#: ../gramps/gui/displaystate.py:419
 msgid "Tools"
 msgstr "Εργαλεία"
 
-#: ../gramps/gui/displaystate.py:422
+#: ../gramps/gui/displaystate.py:423
 #, fuzzy
 #| msgid "Plugin Manager"
 msgid "Open Addon Manager"
 msgstr "Διαχείριση Προσθέτων"
 
-#: ../gramps/gui/displaystate.py:423 ../gramps/gui/plug/_windows.py:440
+#: ../gramps/gui/displaystate.py:424 ../gramps/gui/plug/_windows.py:448
 #, fuzzy
 #| msgid "Addon Name"
 msgid "Addons"
 msgstr "Όνομα πρόσθετου"
 
-#: ../gramps/gui/displaystate.py:428
+#: ../gramps/gui/displaystate.py:429
 #, fuzzy
 #| msgid "Preferences"
 msgid "Open Preferences"
 msgstr "Προτιμήσεις"
 
-#: ../gramps/gui/displaystate.py:449
+#: ../gramps/gui/displaystate.py:450
 #: ../gramps/plugins/gramplet/persondetails.py:181
 msgid "No active person"
 msgstr "Κανένα ενεργό άτομο"
 
-#: ../gramps/gui/displaystate.py:450
+#: ../gramps/gui/displaystate.py:451
 msgid "No active family"
 msgstr "Καμμία ενεργή οικογένεια"
 
-#: ../gramps/gui/displaystate.py:451
+#: ../gramps/gui/displaystate.py:452
 msgid "No active event"
 msgstr "Κανένα ενεργό συμβάν"
 
-#: ../gramps/gui/displaystate.py:452
+#: ../gramps/gui/displaystate.py:453
 msgid "No active place"
 msgstr "Καμμία ενεργή τοποθεσία"
 
-#: ../gramps/gui/displaystate.py:453
+#: ../gramps/gui/displaystate.py:454
 msgid "No active source"
 msgstr "Καμμία ενεργή πηγή"
 
-#: ../gramps/gui/displaystate.py:454
+#: ../gramps/gui/displaystate.py:455
 msgid "No active citation"
 msgstr "Καμμία ενεργή παραπομπή"
 
-#: ../gramps/gui/displaystate.py:455
+#: ../gramps/gui/displaystate.py:456
 msgid "No active repository"
 msgstr "Κανένα ενεργό αποθετήριο"
 
-#: ../gramps/gui/displaystate.py:456
+#: ../gramps/gui/displaystate.py:457
 msgid "No active media"
 msgstr "Κανένα ενεργό μέσο"
 
-#: ../gramps/gui/displaystate.py:457
+#: ../gramps/gui/displaystate.py:458
 msgid "No active note"
 msgstr "Καμμία ενεργή σημείωση"
 
-#: ../gramps/gui/displaystate.py:735 ../gramps/plugins/gramplet/todo.py:206
+#: ../gramps/gui/displaystate.py:738 ../gramps/plugins/gramplet/todo.py:206
 #, fuzzy
 msgid "No active object"
 msgstr "Καμμία ενεργή σημείωση"
 
-#: ../gramps/gui/displaystate.py:771
+#: ../gramps/gui/displaystate.py:774
 msgid "Danger: This is unstable code!"
 msgstr "Κίνδυνος: Ασταθής κώδικας!"
 
-#: ../gramps/gui/displaystate.py:772
+#: ../gramps/gui/displaystate.py:775
 #, python-format
 msgid "This Gramps ('%s') is a development release.\n"
 msgstr ""
 
-#: ../gramps/gui/displaystate.py:774
+#: ../gramps/gui/displaystate.py:777
 #, fuzzy, python-format
 msgid ""
 "This version is not meant for normal usage. Use at your own risk.\n"
@@ -14571,14 +14565,14 @@ msgid "Set as default name"
 msgstr "Ορισμός ως προεπιλεγμένου ονόματος"
 
 #: ../gramps/gui/editors/displaytabs/namemodel.py:58
-#: ../gramps/gui/plug/_guioptions.py:1268 ../gramps/gui/plug/_windows.py:888
+#: ../gramps/gui/plug/_guioptions.py:1268 ../gramps/gui/plug/_windows.py:895
 #: ../gramps/gui/viewmanager.py:1134 ../gramps/gui/views/tags.py:590
 #: ../gramps/plugins/quickview/all_relations.py:365
 msgid "Yes"
 msgstr "Ναι"
 
 #: ../gramps/gui/editors/displaytabs/namemodel.py:59
-#: ../gramps/gui/plug/_guioptions.py:1266 ../gramps/gui/plug/_windows.py:889
+#: ../gramps/gui/plug/_guioptions.py:1266 ../gramps/gui/plug/_windows.py:896
 #: ../gramps/gui/viewmanager.py:1135 ../gramps/gui/views/tags.py:591
 #: ../gramps/plugins/quickview/all_relations.py:371
 msgid "No"
@@ -15101,7 +15095,7 @@ msgstr "Επεξεργασία αναφοράς σε συμβάν"
 
 #: ../gramps/gui/editors/editeventref.py:109
 #: ../gramps/gui/editors/editmediaref.py:130
-#: ../gramps/gui/editors/editname.py:146
+#: ../gramps/gui/editors/editname.py:139
 #: ../gramps/gui/editors/editplaceref.py:91
 #: ../gramps/gui/editors/editreporef.py:80
 msgid "_General"
@@ -15515,30 +15509,30 @@ msgctxt "Y coordinate"
 msgid "Y"
 msgstr "Υ"
 
-#: ../gramps/gui/editors/editname.py:123 ../gramps/gui/editors/editname.py:347
+#: ../gramps/gui/editors/editname.py:123 ../gramps/gui/editors/editname.py:344
 msgid "Name Editor"
 msgstr "Επεξεργασία ονομάτων"
 
-#: ../gramps/gui/editors/editname.py:173
+#: ../gramps/gui/editors/editname.py:170
 #, fuzzy
 msgctxt "manual"
 msgid "Name_Editor"
 msgstr "Επεξεργασία ονομάτων"
 
-#: ../gramps/gui/editors/editname.py:187
+#: ../gramps/gui/editors/editname.py:184
 #: ../gramps/gui/editors/editperson.py:342
 msgid "Call name must be the given name that is normally used."
 msgstr "Το υποκοριστικό πρέπει να είναι το όνομα που χρησιμοποιείται συνήθως."
 
-#: ../gramps/gui/editors/editname.py:346
+#: ../gramps/gui/editors/editname.py:343
 msgid "New Name"
 msgstr "Νέο όνομα"
 
-#: ../gramps/gui/editors/editname.py:415
+#: ../gramps/gui/editors/editname.py:412
 msgid "Break global name grouping?"
 msgstr "Διακοπή της ομαδοποίησης του ονόματος;"
 
-#: ../gramps/gui/editors/editname.py:417
+#: ../gramps/gui/editors/editname.py:414
 #, python-format
 msgid ""
 "All people with the name of %(surname)s will no longer be grouped with the "
@@ -15547,19 +15541,19 @@ msgstr ""
 "Όλα τα άτομα με το επώνυμο %(surname)s δεν θα είναι πλεόν ομαδοποιημένα με "
 "την ονομασία %(group_name)s."
 
-#: ../gramps/gui/editors/editname.py:421
+#: ../gramps/gui/editors/editname.py:418
 msgid "Continue"
 msgstr "Συνέχεια"
 
-#: ../gramps/gui/editors/editname.py:422
+#: ../gramps/gui/editors/editname.py:419
 msgid "Return to Name Editor"
 msgstr "Επιστροφή στην επεξεργασία ονομάτων"
 
-#: ../gramps/gui/editors/editname.py:449
+#: ../gramps/gui/editors/editname.py:446
 msgid "Group all people with the same name?"
 msgstr "Ομαδοποίηση όλων των ατόμων με το ίδιο επώνυμο;"
 
-#: ../gramps/gui/editors/editname.py:451
+#: ../gramps/gui/editors/editname.py:448
 #, python-format
 msgid ""
 "You have the choice of grouping all people with the name of %(surname)s with "
@@ -15568,12 +15562,12 @@ msgstr ""
 "Έχετε την επιλογή να ομαδοποιήσετε όλα τα άτομα με επώνυμο %(surname)s με "
 "την ονομασία %(group_name)s, ή απλώς να εμφανίζεται το συγκεκριμένο όνομα."
 
-#: ../gramps/gui/editors/editname.py:456
+#: ../gramps/gui/editors/editname.py:453
 msgid "Group all"
 msgstr "Ομαδοποίηση όλων"
 
 # ή "επωνύμου";;;
-#: ../gramps/gui/editors/editname.py:457
+#: ../gramps/gui/editors/editname.py:454
 msgid "Group this name only"
 msgstr "Ομαδοποίηση αυτού του ονόματος μόνον"
 
@@ -16976,7 +16970,7 @@ msgstr "Προσωπικά δεδομένα"
 #: ../gramps/gui/glade/editldsord.glade:146
 #: ../gramps/gui/glade/editmedia.glade:235
 #: ../gramps/gui/glade/editmediaref.glade:573
-#: ../gramps/gui/glade/editname.glade:562
+#: ../gramps/gui/glade/editname.glade:563
 #: ../gramps/gui/glade/editplacename.glade:123
 #: ../gramps/plugins/importer/importprogen.glade:486
 msgid "Invoke date editor"
@@ -17675,11 +17669,11 @@ msgstr ""
 msgid "Given Name(s)"
 msgstr "Όνομα"
 
-#: ../gramps/gui/glade/editname.glade:384
+#: ../gramps/gui/glade/editname.glade:385
 msgid "_Family Nick Name:"
 msgstr "_Οικογενειακό παρατσούκλι:"
 
-#: ../gramps/gui/glade/editname.glade:398
+#: ../gramps/gui/glade/editname.glade:399
 msgid ""
 "A non official name given to a family to distinguish them of people with the "
 "same family name. Often referred to as eg. Farm name."
@@ -17687,24 +17681,24 @@ msgstr ""
 "Ένα μη επίσημο επώνυμο -παρατσούκλι- για να ξεχωρίζει από τα άτομα με το "
 "ίδιο επώνυμο. Αναφέρεται συχνά και ως π.χ. χωριάτικο. "
 
-#: ../gramps/gui/glade/editname.glade:424
+#: ../gramps/gui/glade/editname.glade:425
 #, fuzzy
 msgid "Family Names "
 msgstr "Σημειώσεις οικογένειας"
 
-#: ../gramps/gui/glade/editname.glade:462
+#: ../gramps/gui/glade/editname.glade:463
 msgid "G_roup as:"
 msgstr "Ομα_δοποίηση ως:"
 
-#: ../gramps/gui/glade/editname.glade:476
+#: ../gramps/gui/glade/editname.glade:477
 msgid "_Sort as:"
 msgstr "_Ταξινόμηση ως:"
 
-#: ../gramps/gui/glade/editname.glade:490
+#: ../gramps/gui/glade/editname.glade:491
 msgid "_Display as:"
 msgstr "Εμφά_νιση ως:"
 
-#: ../gramps/gui/glade/editname.glade:503
+#: ../gramps/gui/glade/editname.glade:504
 msgid ""
 "People are displayed according to the name format given in the Preferences "
 "(the default).\n"
@@ -17716,11 +17710,11 @@ msgstr ""
 "Εδώ μπορείτε να βεβαιωθείτε ότι ένα άτομο εμφανίζεται σύμφωνα με κάποια "
 "προσαρμοσμένη μορφή ονόματος (περισσότερες μορφές είναι εφικτές)."
 
-#: ../gramps/gui/glade/editname.glade:524
+#: ../gramps/gui/glade/editname.glade:525
 msgid "Dat_e:"
 msgstr "_Ημερομηνία:"
 
-#: ../gramps/gui/glade/editname.glade:538
+#: ../gramps/gui/glade/editname.glade:539
 msgid ""
 "People are sorted according to the name format given in the Preferences (the "
 "default).\n"
@@ -17732,7 +17726,7 @@ msgstr ""
 "Εδώ μπορείτε να βεβαιωθείτε ότι ένα άτομο ταξινομείται σύμφωνα με κάποια "
 "προσαρμοσμένη μορφή ονόματος (περισσότερες μορφές είναι εφικτές)."
 
-#: ../gramps/gui/glade/editname.glade:601
+#: ../gramps/gui/glade/editname.glade:602
 msgid ""
 "The Person Tree view groups people under the primary surname. You can "
 "override this by setting here a group value. \n"
@@ -17745,11 +17739,11 @@ msgstr ""
 "Θα ερωτηθείτε εάν επιθυμείτε να ομαδοποιήσετε μόνον αυτό το άτομο ή όλα τα "
 "άτομα που έχουν το ίδιο επώνυμο."
 
-#: ../gramps/gui/glade/editname.glade:615
+#: ../gramps/gui/glade/editname.glade:616
 msgid "O_verride"
 msgstr "Πα_ράκαμψη"
 
-#: ../gramps/gui/glade/editname.glade:641
+#: ../gramps/gui/glade/editname.glade:642
 msgid ""
 "A Date associated with this name. Eg. for a Married Name, date the name is "
 "first used or marriage date."
@@ -18282,7 +18276,7 @@ msgid "_Merge and close"
 msgstr "_Συγχώνευση και κλείσιμο"
 
 #: ../gramps/gui/glade/mergedata.glade:173
-#: ../gramps/gui/glade/mergedata.glade:189 ../gramps/gui/plug/_windows.py:2080
+#: ../gramps/gui/glade/mergedata.glade:189 ../gramps/gui/plug/_windows.py:2087
 #: ../gramps/plugins/tool/changenames.py:226
 #: ../gramps/plugins/tool/patchnames.py:454
 msgid "Select"
@@ -18774,7 +18768,7 @@ msgid "Alignment"
 msgstr "<b>Στοίχιση</b>"
 
 #: ../gramps/gui/glade/styleeditor.glade:586
-#: ../gramps/plugins/drawreport/fanchart.py:824
+#: ../gramps/plugins/drawreport/fanchart.py:818
 msgid "Background color"
 msgstr "Χρώμα φόντου"
 
@@ -19000,7 +18994,7 @@ msgid "Install Selected _Addons"
 msgstr "Εγκατάσταση των επι_λεγμένων πρόσθετων"
 
 #: ../gramps/gui/glade/updateaddons.glade:72
-#: ../gramps/gui/plug/_windows.py:2057
+#: ../gramps/gui/plug/_windows.py:2064
 msgid "Available Gramps Updates for Addons"
 msgstr "Διαθέσιμες ενημερώσεις του Gramps για πρόσθετα"
 
@@ -19474,21 +19468,21 @@ msgstr ""
 "τους χρήστες του. Η ανάδραση είναι σημαντική. Σας ευχαριστούμε για τον χρόνο "
 "σας για την υποβολή μίας αναφοράς σφάλματος."
 
-#: ../gramps/gui/logger/_errorview.py:47
+#: ../gramps/gui/logger/_errorview.py:48
 #, fuzzy
 msgctxt "manual"
 msgid "Error_Report"
 msgstr "Αναφορά Σφάλματος"
 
-#: ../gramps/gui/logger/_errorview.py:116
+#: ../gramps/gui/logger/_errorview.py:117
 msgid "Error Report"
 msgstr "Αναφορά Σφάλματος"
 
-#: ../gramps/gui/logger/_errorview.py:144
+#: ../gramps/gui/logger/_errorview.py:143
 msgid "Gramps has experienced an unexpected error"
 msgstr "Το Gramps αντιμετώπισε ένα απρόσμενο σφάλμα"
 
-#: ../gramps/gui/logger/_errorview.py:155
+#: ../gramps/gui/logger/_errorview.py:154
 msgid ""
 "Your data will be safe but it would be advisable to restart Gramps "
 "immediately. If you would like to report the problem to the Gramps team "
@@ -19500,8 +19494,8 @@ msgstr ""
 "του Gramps παρακαλούμε κάνετε κλικ στην Αναφορά και ο Βοηθός αναφοράς "
 "σφαλμάτων θα σας καθοδηγήσει στην αναφορά σφάλματος."
 
-#: ../gramps/gui/logger/_errorview.py:166
-#: ../gramps/gui/logger/_errorview.py:182
+#: ../gramps/gui/logger/_errorview.py:165
+#: ../gramps/gui/logger/_errorview.py:181
 msgid "Error Detail"
 msgstr "Λεπτομέρειες σφάλματος"
 
@@ -19743,7 +19737,7 @@ msgstr "Επιλογή χρώματος για %s"
 msgid "Save As"
 msgstr "Αποθήκευση ως"
 
-#: ../gramps/gui/plug/_guioptions.py:1757 ../gramps/gui/plug/_windows.py:1374
+#: ../gramps/gui/plug/_guioptions.py:1757 ../gramps/gui/plug/_windows.py:1381
 #: ../gramps/gui/plug/report/_bookdialog.py:651
 #: ../gramps/gui/plug/report/_fileentry.py:68
 #, fuzzy
@@ -19767,7 +19761,7 @@ msgstr "Αντικείμενο"
 msgid "Audience"
 msgstr "Ηχητική εγγραφή"
 
-#: ../gramps/gui/plug/_windows.py:226 ../gramps/gui/plug/_windows.py:1596
+#: ../gramps/gui/plug/_windows.py:226 ../gramps/gui/plug/_windows.py:1603
 msgid "Version"
 msgstr "Έκδοση"
 
@@ -19790,397 +19784,401 @@ msgstr ""
 msgid "Requires"
 msgstr ""
 
-#: ../gramps/gui/plug/_windows.py:263 ../gramps/gui/plug/_windows.py:395
-#: ../gramps/gui/plug/_windows.py:594
+#: ../gramps/gui/plug/_windows.py:263 ../gramps/gui/plug/_windows.py:403
+#: ../gramps/gui/plug/_windows.py:602
 #, fuzzy
 #| msgid "Updated"
 msgid "Update"
 msgstr "Ενημερώθηκε"
 
-#: ../gramps/gui/plug/_windows.py:286
+#: ../gramps/gui/plug/_windows.py:286 ../gramps/gui/plug/_windows.py:294
 #, fuzzy
 #| msgid "Deletion failed"
 msgid "Module installation failed"
 msgstr "Αποτυχία διαγραφής"
 
-#: ../gramps/gui/plug/_windows.py:311
+#: ../gramps/gui/plug/_windows.py:295
+msgid "Gramps was unable to install the required modules"
+msgstr ""
+
+#: ../gramps/gui/plug/_windows.py:319
 #, fuzzy
 #| msgid "Retirement"
 msgid "Requirements"
 msgstr "Συνταξιοδότηση"
 
-#: ../gramps/gui/plug/_windows.py:347
+#: ../gramps/gui/plug/_windows.py:355
 #, fuzzy
 #| msgid "Addon Name"
 msgid "Addon Manager"
 msgstr "Όνομα πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:355 ../gramps/plugins/gramplet/leak.py:114
+#: ../gramps/gui/plug/_windows.py:363 ../gramps/plugins/gramplet/leak.py:114
 #, fuzzy
 msgid "Refresh"
 msgstr "Α_νανέωση"
 
-#: ../gramps/gui/plug/_windows.py:386
+#: ../gramps/gui/plug/_windows.py:394
 #, fuzzy
 #| msgid "Filter"
 msgid "Filters"
 msgstr "Φίλτρο"
 
-#: ../gramps/gui/plug/_windows.py:392
+#: ../gramps/gui/plug/_windows.py:400
 #, fuzzy
 #| msgid "Addon Name"
 msgid "All addons"
 msgstr "Όνομα πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:393 ../gramps/gui/plug/_windows.py:588
+#: ../gramps/gui/plug/_windows.py:401 ../gramps/gui/plug/_windows.py:596
 #, fuzzy
 #| msgid "Unstable"
-msgid "Uninstalled"
+msgid "Not installed"
 msgstr "Ασταθής"
 
-#: ../gramps/gui/plug/_windows.py:394 ../gramps/gui/plug/_windows.py:591
+#: ../gramps/gui/plug/_windows.py:402 ../gramps/gui/plug/_windows.py:599
 #, fuzzy
 #| msgid "Unstable"
 msgid "Installed"
 msgstr "Ασταθής"
 
-#: ../gramps/gui/plug/_windows.py:407
+#: ../gramps/gui/plug/_windows.py:415
 #, fuzzy
 #| msgid "All files"
 msgid "All types"
 msgstr "Όλα τα αρχεία"
 
-#: ../gramps/gui/plug/_windows.py:415
+#: ../gramps/gui/plug/_windows.py:423
 #, fuzzy
 #| msgid "Audio"
 msgid "All audiences"
 msgstr "Ηχητική εγγραφή"
 
-#: ../gramps/gui/plug/_windows.py:422
+#: ../gramps/gui/plug/_windows.py:430
 #, fuzzy
 #| msgid " state"
 msgid "All statuses"
 msgstr " περιφέρεια/επαρχία"
 
-#: ../gramps/gui/plug/_windows.py:443
+#: ../gramps/gui/plug/_windows.py:451
 #, fuzzy
 msgid "Settings"
 msgstr "Έναρξη"
 
-#: ../gramps/gui/plug/_windows.py:446
+#: ../gramps/gui/plug/_windows.py:454
 msgid "Projects"
 msgstr ""
 
-#: ../gramps/gui/plug/_windows.py:489 ../gramps/gui/plug/_windows.py:599
+#: ../gramps/gui/plug/_windows.py:497 ../gramps/gui/plug/_windows.py:607
 #, fuzzy
 #| msgid "All Events"
 msgid "All projects"
 msgstr "Όλα τα συμβάντα"
 
-#: ../gramps/gui/plug/_windows.py:501
+#: ../gramps/gui/plug/_windows.py:509
 msgid "Loading..."
 msgstr "Φόρτωση..."
 
-#: ../gramps/gui/plug/_windows.py:545
+#: ../gramps/gui/plug/_windows.py:553
 #, fuzzy
 #| msgid "No matches found"
 msgid "No matching addons found."
 msgstr "Δε βρέθηκαν αντιστοιχίσεις"
 
-#: ../gramps/gui/plug/_windows.py:700
+#: ../gramps/gui/plug/_windows.py:707
 msgid "Allow Gramps to install required python modules"
 msgstr ""
 
-#: ../gramps/gui/plug/_windows.py:707
+#: ../gramps/gui/plug/_windows.py:714
 #: ../gramps/plugins/webreport/basepage.py:1899
 #: ../gramps/plugins/webreport/basepage.py:1964
 #, fuzzy
 msgid "Updates"
 msgstr "Ενημερώθηκε"
 
-#: ../gramps/gui/plug/_windows.py:723
+#: ../gramps/gui/plug/_windows.py:730
 msgid "Once a month"
 msgstr "Κάθε μήνα"
 
-#: ../gramps/gui/plug/_windows.py:724
+#: ../gramps/gui/plug/_windows.py:731
 msgid "Once a week"
 msgstr "Κάθε εβδομάδα"
 
-#: ../gramps/gui/plug/_windows.py:725
+#: ../gramps/gui/plug/_windows.py:732
 msgid "Once a day"
 msgstr "Κάθε μέρα"
 
-#: ../gramps/gui/plug/_windows.py:726
+#: ../gramps/gui/plug/_windows.py:733
 msgid "Always"
 msgstr "Πάντα"
 
-#: ../gramps/gui/plug/_windows.py:732
+#: ../gramps/gui/plug/_windows.py:739
 #, fuzzy
 msgid "Check for addon updates"
 msgstr "Έλεγχος για ενημερώσεις"
 
-#: ../gramps/gui/plug/_windows.py:739
+#: ../gramps/gui/plug/_windows.py:746
 msgid "Updated addons only"
 msgstr "Μόνον ενημερωμένα πρόσθετα"
 
-#: ../gramps/gui/plug/_windows.py:740
+#: ../gramps/gui/plug/_windows.py:747
 msgid "New addons only"
 msgstr "Μόνον νέα πρόσθετα"
 
-#: ../gramps/gui/plug/_windows.py:741
+#: ../gramps/gui/plug/_windows.py:748
 msgid "New and updated addons"
 msgstr "Νέα και ενημερωμένα πρόσθετα"
 
 # Ή Επιβεβαίωση;
-#: ../gramps/gui/plug/_windows.py:752
+#: ../gramps/gui/plug/_windows.py:759
 msgid "What to check"
 msgstr "Προς έλεγχο"
 
-#: ../gramps/gui/plug/_windows.py:758
+#: ../gramps/gui/plug/_windows.py:765
 msgid "Do not ask about previously notified addons"
 msgstr "Να μην ερωτώμαι για πρόσθετα για τα οποία έχω ήδη ειδοποιηθεί"
 
-#: ../gramps/gui/plug/_windows.py:765
+#: ../gramps/gui/plug/_windows.py:772
 #, fuzzy
 msgid "Check for updated addons now"
 msgstr "Έλεγχος για ενημερώσεις"
 
-#: ../gramps/gui/plug/_windows.py:778
+#: ../gramps/gui/plug/_windows.py:785
 #, fuzzy
 #| msgid "New Person"
 msgid "New Project"
 msgstr "Νέο άτομο"
 
-#: ../gramps/gui/plug/_windows.py:780
+#: ../gramps/gui/plug/_windows.py:787
 #, fuzzy
 #| msgid "Edit Person"
 msgid "Edit Project"
 msgstr "Επεξεργασία ατόμου"
 
-#: ../gramps/gui/plug/_windows.py:788
+#: ../gramps/gui/plug/_windows.py:795
 #, fuzzy
 #| msgid "Preferred name"
 msgid "Project name"
 msgstr "Προτιμώμενο όνομα"
 
-#: ../gramps/gui/plug/_windows.py:886
+#: ../gramps/gui/plug/_windows.py:893
 #, fuzzy
 msgid "Restore project defaults"
 msgstr "Επαναφορά προεπιλογών;"
 
-#: ../gramps/gui/plug/_windows.py:887
+#: ../gramps/gui/plug/_windows.py:894
 msgid "Are you sure?"
 msgstr ""
 
-#: ../gramps/gui/plug/_windows.py:911
+#: ../gramps/gui/plug/_windows.py:918
 msgid "Checking Addons Failed"
 msgstr "Αποτυχία ελέγχου πρόσθετων..."
 
-#: ../gramps/gui/plug/_windows.py:913
+#: ../gramps/gui/plug/_windows.py:920
 msgid "The addon repository appears to be unavailable. Please try again later."
 msgstr ""
 "Το αποθετήριο προσθέτων εμφανίζεται μη διαθέσιμο. Παρακαλούμε δοκιμάστε "
 "αργότερα."
 
-#: ../gramps/gui/plug/_windows.py:928
+#: ../gramps/gui/plug/_windows.py:935
 msgid "There are no available addons of this type"
 msgstr "Δεν υπάρχουν διαθέσιμα πρόσθετα αυτού του τύπου"
 
-#: ../gramps/gui/plug/_windows.py:929
+#: ../gramps/gui/plug/_windows.py:936
 msgid "' and '"
 msgstr "' και '"
 
-#: ../gramps/gui/plug/_windows.py:929
+#: ../gramps/gui/plug/_windows.py:936
 #, python-format
 msgid "Checked for '%s'"
 msgstr "Ελέγχθηκε για '%s'"
 
-#: ../gramps/gui/plug/_windows.py:935
+#: ../gramps/gui/plug/_windows.py:942
 msgid "new"
 msgstr "νέο"
 
-#: ../gramps/gui/plug/_windows.py:935
+#: ../gramps/gui/plug/_windows.py:942
 msgid "update"
 msgstr "ενημέρωση"
 
-#: ../gramps/gui/plug/_windows.py:970
+#: ../gramps/gui/plug/_windows.py:977
 msgid "Hidden"
 msgstr "Κρυφό"
 
-#: ../gramps/gui/plug/_windows.py:971
+#: ../gramps/gui/plug/_windows.py:978
 msgid "Visible"
 msgstr "Ορατό"
 
-#: ../gramps/gui/plug/_windows.py:976
+#: ../gramps/gui/plug/_windows.py:983
 msgid "Plugin Manager"
 msgstr "Διαχείριση Προσθέτων"
 
-#: ../gramps/gui/plug/_windows.py:1028 ../gramps/gui/plug/_windows.py:1086
+#: ../gramps/gui/plug/_windows.py:1035 ../gramps/gui/plug/_windows.py:1093
 msgid "Info"
 msgstr "Πληροφορίες"
 
-#: ../gramps/gui/plug/_windows.py:1031 ../gramps/gui/plug/_windows.py:1089
+#: ../gramps/gui/plug/_windows.py:1038 ../gramps/gui/plug/_windows.py:1096
 msgid "Hide/Unhide"
 msgstr "Απόκρυψη/Εμφάνιση"
 
-#: ../gramps/gui/plug/_windows.py:1040 ../gramps/gui/plug/_windows.py:1099
+#: ../gramps/gui/plug/_windows.py:1047 ../gramps/gui/plug/_windows.py:1106
 msgid "Load"
 msgstr "Φόρτωση"
 
-#: ../gramps/gui/plug/_windows.py:1046
+#: ../gramps/gui/plug/_windows.py:1053
 msgid "Registered Plugins"
 msgstr "Εγγεγραμένα πρόσθετα"
 
-#: ../gramps/gui/plug/_windows.py:1065
+#: ../gramps/gui/plug/_windows.py:1072
 msgid "Loaded"
 msgstr "Φορτωμένο"
 
-#: ../gramps/gui/plug/_windows.py:1069
+#: ../gramps/gui/plug/_windows.py:1076
 #: ../gramps/plugins/importer/importprogen.glade:431
 #: ../gramps/plugins/importer/importprogen.glade:1126
 msgid "File"
 msgstr "Αρχείο"
 
-#: ../gramps/gui/plug/_windows.py:1076
+#: ../gramps/gui/plug/_windows.py:1083
 msgid "Message"
 msgstr "Μήνυμα"
 
-#: ../gramps/gui/plug/_windows.py:1105
+#: ../gramps/gui/plug/_windows.py:1112
 msgid "Loaded Plugins"
 msgstr "Εγκατεστημένα πρόσθετα"
 
-#: ../gramps/gui/plug/_windows.py:1127
+#: ../gramps/gui/plug/_windows.py:1134
 msgid "Addon Name"
 msgstr "Όνομα πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:1139
+#: ../gramps/gui/plug/_windows.py:1146
 msgid "Path to Addon:"
 msgstr "Διαδρομή προς το πρόσθετο:"
 
-#: ../gramps/gui/plug/_windows.py:1159
+#: ../gramps/gui/plug/_windows.py:1166
 msgid "Install Addon"
 msgstr "Εγκατάσταση πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:1162
+#: ../gramps/gui/plug/_windows.py:1169
 msgid "Install All Addons"
 msgstr "Εγκατάσταση όλων των πρόσθετων"
 
-#: ../gramps/gui/plug/_windows.py:1165
+#: ../gramps/gui/plug/_windows.py:1172
 msgid "Refresh Addon List"
 msgstr "Ανανέωση λίστας πρόσθετων"
 
-#: ../gramps/gui/plug/_windows.py:1178
+#: ../gramps/gui/plug/_windows.py:1185
 msgid "Reload"
 msgstr "Επαναφόρτωση"
 
-#: ../gramps/gui/plug/_windows.py:1206
+#: ../gramps/gui/plug/_windows.py:1213
 msgid "Refreshing Addon List"
 msgstr "Ανανεώνεται η λίστα πρόσθετων"
 
-#: ../gramps/gui/plug/_windows.py:1207 ../gramps/gui/plug/_windows.py:1212
-#: ../gramps/gui/plug/_windows.py:1350
+#: ../gramps/gui/plug/_windows.py:1214 ../gramps/gui/plug/_windows.py:1219
+#: ../gramps/gui/plug/_windows.py:1357
 msgid "Reading gramps-project.org..."
 msgstr "Ανάγνωση από το gramps-project.org..."
 
-#: ../gramps/gui/plug/_windows.py:1230
+#: ../gramps/gui/plug/_windows.py:1237
 msgid "Checking addon..."
 msgstr "Έλεγχος πρόσθετου..."
 
-#: ../gramps/gui/plug/_windows.py:1238
+#: ../gramps/gui/plug/_windows.py:1245
 msgid "Unknown Help URL"
 msgstr "Άγνωστη διεύθυνση διαδικτύου για βοήθεια"
 
-#: ../gramps/gui/plug/_windows.py:1249
+#: ../gramps/gui/plug/_windows.py:1256
 msgid "Unknown URL"
 msgstr "Άγνωστη διεύθυνση διαδικτύου"
 
-#: ../gramps/gui/plug/_windows.py:1314
+#: ../gramps/gui/plug/_windows.py:1321
 msgid "Install all Addons"
 msgstr "Εγκατάσταση όλων των πρόσθετων"
 
-#: ../gramps/gui/plug/_windows.py:1315
+#: ../gramps/gui/plug/_windows.py:1322
 msgid "Installing..."
 msgstr "Εγκατάσταση..."
 
-#: ../gramps/gui/plug/_windows.py:1348
+#: ../gramps/gui/plug/_windows.py:1355
 msgid "Installing Addon"
 msgstr "Εγκατάσταση πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:1371
+#: ../gramps/gui/plug/_windows.py:1378
 msgid "Load Addon"
 msgstr "Φόρτωση πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:1463
+#: ../gramps/gui/plug/_windows.py:1470
 #: ../gramps/plugins/tool/dateparserdisplaytest.py:261
 msgid "Fail"
 msgstr "Αποτυχία"
 
-#: ../gramps/gui/plug/_windows.py:1486 ../gramps/gui/widgets/grampletbar.py:612
+#: ../gramps/gui/plug/_windows.py:1493 ../gramps/gui/widgets/grampletbar.py:612
 msgid "OK"
 msgstr "Εντάξει"
 
-#: ../gramps/gui/plug/_windows.py:1594
+#: ../gramps/gui/plug/_windows.py:1601
 msgid "Plugin name"
 msgstr "Όνομα πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:1597
+#: ../gramps/gui/plug/_windows.py:1604
 msgid "Authors"
 msgstr "Συγγραφείς"
 
-#: ../gramps/gui/plug/_windows.py:1599
+#: ../gramps/gui/plug/_windows.py:1606
 #: ../gramps/gui/plug/report/_reportdialog.py:481
 msgid "Filename"
 msgstr "Όνομα αρχείου"
 
-#: ../gramps/gui/plug/_windows.py:1602
+#: ../gramps/gui/plug/_windows.py:1609
 msgid "Detailed Info"
 msgstr "Αναλυτική πληροφορία"
 
-#: ../gramps/gui/plug/_windows.py:1657
+#: ../gramps/gui/plug/_windows.py:1664
 msgid "Plugin Error"
 msgstr "Σφάλμα πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:1726
+#: ../gramps/gui/plug/_windows.py:1733
 msgid "_Execute"
 msgstr ""
 
-#: ../gramps/gui/plug/_windows.py:2024
+#: ../gramps/gui/plug/_windows.py:2031
 #: ../gramps/plugins/importer/importprogen.py:478
 #: ../gramps/plugins/tool/ownereditor.py:171
 #: ../gramps/plugins/tool/reorderids.py:249
 msgid "Main window"
 msgstr "Κύριο παράθυρο"
 
-#: ../gramps/gui/plug/_windows.py:2162
+#: ../gramps/gui/plug/_windows.py:2169
 msgid "Downloading and installing selected addons..."
 msgstr "Μεταφόρτωση και εγκατάσταση των επιλεγμένων πρόσθετων..."
 
-#: ../gramps/gui/plug/_windows.py:2205
+#: ../gramps/gui/plug/_windows.py:2212
 #, fuzzy
 msgid "Installation Errors"
 msgstr "Εγκατάσταση πρόσθετου"
 
-#: ../gramps/gui/plug/_windows.py:2206
+#: ../gramps/gui/plug/_windows.py:2213
 #, fuzzy
 msgid "The following addons had errors: "
 msgstr "Προέκυψαν τα ακόλουθα προβλήματα:"
 
-#: ../gramps/gui/plug/_windows.py:2214 ../gramps/gui/plug/_windows.py:2231
+#: ../gramps/gui/plug/_windows.py:2221 ../gramps/gui/plug/_windows.py:2238
 msgid "Done downloading and installing addons"
 msgstr "Η μεταφόρτωση και εγκατάσταση των επιλεγμένων πρόσθετων ολοκληρώθηκε"
 
-#: ../gramps/gui/plug/_windows.py:2219
+#: ../gramps/gui/plug/_windows.py:2226
 #, fuzzy, python-brace-format
 msgid "{number_of} addon was installed."
 msgid_plural "{number_of} addons were installed."
 msgstr[0] "%d πρόσθετο εγκαταστάθηκε."
 msgstr[1] "%d πρόσθετα εγκαταστάθηκαν."
 
-#: ../gramps/gui/plug/_windows.py:2224
+#: ../gramps/gui/plug/_windows.py:2231
 msgid "If you have installed a 'View', you will need to restart Gramps."
 msgstr ""
 
-#: ../gramps/gui/plug/_windows.py:2232
+#: ../gramps/gui/plug/_windows.py:2239
 msgid "No addons were installed."
 msgstr "Κανένα πρόσθετο δεν εγκαταστάθηκε."
 
@@ -20728,7 +20726,7 @@ msgstr "Πρότυπο"
 #: ../gramps/plugins/drawreport/ancestortree.py:895
 #: ../gramps/plugins/drawreport/calendarreport.py:596
 #: ../gramps/plugins/drawreport/descendtree.py:1627
-#: ../gramps/plugins/drawreport/fanchart.py:801
+#: ../gramps/plugins/drawreport/fanchart.py:795
 #: ../gramps/plugins/drawreport/statisticschart.py:1121
 #: ../gramps/plugins/drawreport/timeline.py:426
 #: ../gramps/plugins/graph/gvfamilylines.py:134
@@ -21165,7 +21163,7 @@ msgstr ""
 msgid "File %s does not exist"
 msgstr "Το αρχείο %s δεν υπάρχει"
 
-#: ../gramps/gui/utils.py:765
+#: ../gramps/gui/utils.py:799
 msgid ""
 "Cannot open new citation editor at this time. Either the citation is already "
 "being edited, or the associated source is already being edited, and opening "
@@ -21184,7 +21182,7 @@ msgstr ""
 "Για να επεξεργαστείτε την παραπομπή, κλείστε την επεξεργασία πηγής και "
 "ανοίξτε μόνον την επεξεργασία παραπομπής."
 
-#: ../gramps/gui/utils.py:781
+#: ../gramps/gui/utils.py:815
 msgid "Cannot open new citation editor"
 msgstr "Αδύνατο το άνοιγμα νέας επεξεργασίας παραπομπής."
 
@@ -21252,25 +21250,23 @@ msgid "Would you like to run the Check and Repair tool?"
 msgstr ""
 "Παρακαλούμε εκτελέστε το εργαλείο 'Έλεγχος και επιδιόρθωση βάσης δεδομένων'"
 
-#: ../gramps/gui/viewmanager.py:1287 ../gramps/gui/viewmanager.py:1908
-msgid ""
-"Please wait for backup in progress.\n"
-"Gramps will close when complete."
+#: ../gramps/gui/viewmanager.py:1286 ../gramps/gui/viewmanager.py:1904
+msgid "Please wait for backup to complete."
 msgstr ""
 
-#: ../gramps/gui/viewmanager.py:1291 ../gramps/gui/viewmanager.py:1295
+#: ../gramps/gui/viewmanager.py:1288 ../gramps/gui/viewmanager.py:1292
 msgid "Autobackup..."
 msgstr "Αυτόματο αντίγραφο ασφαλείας..."
 
-#: ../gramps/gui/viewmanager.py:1299
+#: ../gramps/gui/viewmanager.py:1296
 msgid "Error saving backup data"
 msgstr "Σφάλμα κατά την αποθήκευση δεδομένων αντιγράφων ασφαλείας"
 
-#: ../gramps/gui/viewmanager.py:1593
+#: ../gramps/gui/viewmanager.py:1590
 msgid "Failed Loading View"
 msgstr "Αποτυχία φόρτωσης προβολής"
 
-#: ../gramps/gui/viewmanager.py:1595
+#: ../gramps/gui/viewmanager.py:1592
 #, fuzzy, python-format
 msgid ""
 "The view %(name)s did not load and reported an error.\n"
@@ -21296,12 +21292,12 @@ msgstr ""
 "μπορείτε να την αποκρύψετε χρησιμοποιώντας τη διαχείριση πρόσθετων, στο "
 "μενού Βοήθεια."
 
-#: ../gramps/gui/viewmanager.py:1704
+#: ../gramps/gui/viewmanager.py:1701
 msgid "Failed Loading Plugin"
 msgstr "Αποτυχία φόρτωσης πρόσθετου"
 
 # "δημιουργό" ή "συγγραφέα" του πρόσθετου;;;
-#: ../gramps/gui/viewmanager.py:1706
+#: ../gramps/gui/viewmanager.py:1703
 #, fuzzy, python-format
 msgid ""
 "The plugin %(name)s did not load and reported an error.\n"
@@ -21327,56 +21323,56 @@ msgstr ""
 "μπορείτε να το αποκρύψετε χρησιμοποιώντας τη διαχείριση πρόσθετων, στο μενού "
 "Βοήθεια."
 
-#: ../gramps/gui/viewmanager.py:1802
+#: ../gramps/gui/viewmanager.py:1799
 msgid "Gramps XML Backup"
 msgstr "Ανίιγραφο ασφαλείας μορφής Gramps XML"
 
-#: ../gramps/gui/viewmanager.py:1829
+#: ../gramps/gui/viewmanager.py:1826
 msgid "File:"
 msgstr "Αρχείο:"
 
-#: ../gramps/gui/viewmanager.py:1864
+#: ../gramps/gui/viewmanager.py:1861
 msgid "Media:"
 msgstr "Μέσα:"
 
-#: ../gramps/gui/viewmanager.py:1870
+#: ../gramps/gui/viewmanager.py:1867
 #: ../gramps/plugins/gramplet/statsgramplet.py:219
 #: ../gramps/plugins/webreport/statistics.py:174
 msgctxt "Megabyte"
 msgid "MB"
 msgstr "MB"
 
-#: ../gramps/gui/viewmanager.py:1872
+#: ../gramps/gui/viewmanager.py:1869
 msgid "Exclude"
 msgstr "Να μη συμπεριληφθούν"
 
-#: ../gramps/gui/viewmanager.py:1891
+#: ../gramps/gui/viewmanager.py:1888
 msgid "Backup file already exists! Overwrite?"
 msgstr "Το αρχείο αντιγράφου ασφαλείας υπάρχει ήδη! Να αντικατασταθεί;"
 
-#: ../gramps/gui/viewmanager.py:1892
+#: ../gramps/gui/viewmanager.py:1889
 #, python-format
 msgid "The file '%s' exists."
 msgstr "Το αρχείο '%s' υπάρχει."
 
-#: ../gramps/gui/viewmanager.py:1893
+#: ../gramps/gui/viewmanager.py:1890
 msgid "Proceed and overwrite"
 msgstr "Συνέχεια και αντικατάσταση"
 
-#: ../gramps/gui/viewmanager.py:1894
+#: ../gramps/gui/viewmanager.py:1891
 msgid "Cancel the backup"
 msgstr "Ακύρωση δημιουργίας αντιγράφου ασφαλείας"
 
-#: ../gramps/gui/viewmanager.py:1912 ../gramps/gui/viewmanager.py:1917
+#: ../gramps/gui/viewmanager.py:1906 ../gramps/gui/viewmanager.py:1911
 msgid "Making backup..."
 msgstr "Δημιουργία αντιγράφου ασφαλείας..."
 
-#: ../gramps/gui/viewmanager.py:1934
+#: ../gramps/gui/viewmanager.py:1928
 #, python-format
 msgid "Backup saved to '%s'"
 msgstr "Το αντίγραφο ασφαλείας αποθηκεύτηκε ως '%s'"
 
-#: ../gramps/gui/viewmanager.py:1938
+#: ../gramps/gui/viewmanager.py:1932
 msgid "Backup aborted"
 msgstr "Η δημιουργία αντιγράφου ασφαλείας ματαιώθηκε"
 
@@ -22207,7 +22203,7 @@ msgid "transparent background"
 msgstr ""
 
 #: ../gramps/plugins/docgen/svgdrawdoc.py:353
-#: ../gramps/plugins/drawreport/fanchart.py:825
+#: ../gramps/plugins/drawreport/fanchart.py:819
 msgid "white"
 msgstr "λευκό"
 
@@ -22258,7 +22254,7 @@ msgstr "Δέντρο προγόνων του/της %s"
 #: ../gramps/plugins/drawreport/ancestortree.py:403
 #: ../gramps/plugins/drawreport/calendarreport.py:139
 #: ../gramps/plugins/drawreport/descendtree.py:738
-#: ../gramps/plugins/drawreport/fanchart.py:222
+#: ../gramps/plugins/drawreport/fanchart.py:223
 #: ../gramps/plugins/graph/gvhourglass.py:123
 #: ../gramps/plugins/graph/gvrelgraph.py:200
 #: ../gramps/plugins/textreport/ancestorreport.py:126
@@ -22289,7 +22285,7 @@ msgstr "Εκτύπωση του δέντρου..."
 
 #: ../gramps/plugins/drawreport/ancestortree.py:840
 #: ../gramps/plugins/drawreport/calendarreport.py:607
-#: ../gramps/plugins/drawreport/fanchart.py:803
+#: ../gramps/plugins/drawreport/fanchart.py:797
 #: ../gramps/plugins/graph/gvhourglass.py:442
 #: ../gramps/plugins/graph/gvrelgraph.py:886
 #: ../gramps/plugins/textreport/ancestorreport.py:305
@@ -22318,7 +22314,7 @@ msgstr ""
 
 #: ../gramps/plugins/drawreport/ancestortree.py:853
 #: ../gramps/plugins/drawreport/descendtree.py:1583
-#: ../gramps/plugins/drawreport/fanchart.py:807
+#: ../gramps/plugins/drawreport/fanchart.py:801
 #: ../gramps/plugins/textreport/ancestorreport.py:309
 #: ../gramps/plugins/textreport/descendreport.py:577
 #: ../gramps/plugins/textreport/detancestralreport.py:865
@@ -22499,7 +22495,7 @@ msgstr "Να συμπεριληφθούν ή όχι κενές σελίδες."
 #: ../gramps/plugins/drawreport/ancestortree.py:958
 #: ../gramps/plugins/drawreport/calendarreport.py:625
 #: ../gramps/plugins/drawreport/descendtree.py:1693
-#: ../gramps/plugins/drawreport/fanchart.py:860
+#: ../gramps/plugins/drawreport/fanchart.py:858
 #: ../gramps/plugins/drawreport/statisticschart.py:1188
 #: ../gramps/plugins/drawreport/timeline.py:446
 #: ../gramps/plugins/graph/gvfamilylines.py:200
@@ -22681,7 +22677,7 @@ msgstr " γενιές από άδεια πλαίσια για αγνώστους
 
 #: ../gramps/plugins/drawreport/ancestortree.py:1117
 #: ../gramps/plugins/drawreport/descendtree.py:1829
-#: ../gramps/plugins/drawreport/fanchart.py:901
+#: ../gramps/plugins/drawreport/fanchart.py:899
 #: ../gramps/plugins/drawreport/timeline.py:491
 #: ../gramps/plugins/textreport/alphabeticalindex.py:130
 #: ../gramps/plugins/textreport/ancestorreport.py:399
@@ -22709,7 +22705,7 @@ msgstr "Το βασικό πρότυπο που χρησιμοποιείται �
 
 #: ../gramps/plugins/drawreport/ancestortree.py:1135
 #: ../gramps/plugins/drawreport/descendtree.py:1821
-#: ../gramps/plugins/drawreport/fanchart.py:892
+#: ../gramps/plugins/drawreport/fanchart.py:890
 #: ../gramps/plugins/drawreport/statisticschart.py:1272
 #: ../gramps/plugins/drawreport/timeline.py:509
 #: ../gramps/plugins/textreport/alphabeticalindex.py:113
@@ -22805,7 +22801,7 @@ msgstr ""
 "Επιλογή φίλτρου για τον περιορισμό των ατόμων που εμφανίζονται στο ημερολόγιο"
 
 #: ../gramps/plugins/drawreport/calendarreport.py:608
-#: ../gramps/plugins/drawreport/fanchart.py:804
+#: ../gramps/plugins/drawreport/fanchart.py:798
 #: ../gramps/plugins/graph/gvrelgraph.py:887
 #: ../gramps/plugins/textreport/ancestorreport.py:306
 #: ../gramps/plugins/textreport/descendreport.py:560
@@ -23283,19 +23279,19 @@ msgstr "Διάγραμμα χρονολογίου"
 msgid "Produces a timeline chart."
 msgstr "Παράγει ένα διάγραμμα χρονολογίου."
 
-#: ../gramps/plugins/drawreport/fanchart.py:303
+#: ../gramps/plugins/drawreport/fanchart.py:267
 #, python-format
 msgid "%(generations)d Generation Fan Chart for %(person)s"
 msgstr "Διάγραμμα βεντάλιας %(generations)d γενεών του(ης): %(person)s"
 
-#: ../gramps/plugins/drawreport/fanchart.py:317
+#: ../gramps/plugins/drawreport/fanchart.py:282
 #, python-format
 msgid ""
 "%(generations)d Generation Fan Chart for\n"
 "%(person)s"
 msgstr "Γενεά %(generations)d - Διάγραμμα βεντάλιας του(ης) %(person)s"
 
-#: ../gramps/plugins/drawreport/fanchart.py:808
+#: ../gramps/plugins/drawreport/fanchart.py:802
 #: ../gramps/plugins/textreport/ancestorreport.py:310
 #: ../gramps/plugins/textreport/descendreport.py:578
 #: ../gramps/plugins/textreport/detancestralreport.py:866
@@ -23303,27 +23299,27 @@ msgstr "Γενεά %(generations)d - Διάγραμμα βεντάλιας το�
 msgid "The number of generations to include in the report"
 msgstr "Πόσες γενιές να συμπεριληφθούν στην αναφορά"
 
-#: ../gramps/plugins/drawreport/fanchart.py:811
+#: ../gramps/plugins/drawreport/fanchart.py:805
 msgid "Type of graph"
 msgstr "Τύπος γραφήματος"
 
-#: ../gramps/plugins/drawreport/fanchart.py:812
+#: ../gramps/plugins/drawreport/fanchart.py:806
 msgid "full circle"
 msgstr "κύκλος"
 
-#: ../gramps/plugins/drawreport/fanchart.py:813
+#: ../gramps/plugins/drawreport/fanchart.py:807
 msgid "half circle"
 msgstr "ημικύκλιο"
 
-#: ../gramps/plugins/drawreport/fanchart.py:814
+#: ../gramps/plugins/drawreport/fanchart.py:808
 msgid "overhang"
 msgstr ""
 
-#: ../gramps/plugins/drawreport/fanchart.py:815
+#: ../gramps/plugins/drawreport/fanchart.py:809
 msgid "quarter circle"
 msgstr "τεταρτημόριο"
 
-#: ../gramps/plugins/drawreport/fanchart.py:818
+#: ../gramps/plugins/drawreport/fanchart.py:812
 #, fuzzy
 #| msgid "The form of the graph: full circle, half circle, or quarter circle."
 msgid ""
@@ -23331,58 +23327,68 @@ msgid ""
 "or quarter circle."
 msgstr "Η μορφή του γραφήματος: κύκλος, ημικύκλιο ή τεταρτημόριο."
 
-#: ../gramps/plugins/drawreport/fanchart.py:826
+#: ../gramps/plugins/drawreport/fanchart.py:820
 msgid "generation dependent"
 msgstr "αναλόγως της γενεάς"
 
-#: ../gramps/plugins/drawreport/fanchart.py:828
+#: ../gramps/plugins/drawreport/fanchart.py:822
 msgid "Background color is either white or generation dependent"
 msgstr "Χρώμα φόντου είτε λευκό, είτε αναλόγως της γενεάς"
 
-#: ../gramps/plugins/drawreport/fanchart.py:832
+#: ../gramps/plugins/drawreport/fanchart.py:826
 msgid "Orientation of radial texts"
 msgstr "Προσανατολισμός ακτινωτού κειμένου"
 
-#: ../gramps/plugins/drawreport/fanchart.py:833
+#: ../gramps/plugins/drawreport/fanchart.py:827
 msgid "upright"
 msgstr "σε ευθεία"
 
-#: ../gramps/plugins/drawreport/fanchart.py:834
+#: ../gramps/plugins/drawreport/fanchart.py:828
 msgid "roundabout"
 msgstr "καμπυλωτά"
 
-#: ../gramps/plugins/drawreport/fanchart.py:835
+#: ../gramps/plugins/drawreport/fanchart.py:829
 msgid "Print radial texts upright or roundabout"
 msgstr "Εκτύπωση ακτινωτού κειμένου σε ευθεία ή καμπυλωτά"
 
-#: ../gramps/plugins/drawreport/fanchart.py:837
+#: ../gramps/plugins/drawreport/fanchart.py:831
 msgid "Draw empty boxes"
 msgstr "Σχεδίαση κενών πλαισίων"
 
-#: ../gramps/plugins/drawreport/fanchart.py:839
+#: ../gramps/plugins/drawreport/fanchart.py:833
 msgid "Draw the background although there is no information"
 msgstr "Να σχεδιάζεται το φόντο ακόμα και όταν δεν υπάρχει πληροφορία"
 
-#: ../gramps/plugins/drawreport/fanchart.py:843
+#: ../gramps/plugins/drawreport/fanchart.py:837
 msgid "Use one font style for all generations"
 msgstr "Χρήση μιας πρότυπης γραμματοσειράς για όλες τις γενεές"
 
-#: ../gramps/plugins/drawreport/fanchart.py:846
+#: ../gramps/plugins/drawreport/fanchart.py:840
 msgid ""
 "You can customize font and color for each generation in the style editor"
 msgstr ""
 "Μπορείτε να προσαρμόσετε τη γραμματοσειρά και το χρώμα για κάθε γενεά μέσα "
 "από την επεξεργασία προτύπων (στυλ)"
 
-#: ../gramps/plugins/drawreport/fanchart.py:853
+#: ../gramps/plugins/drawreport/fanchart.py:847
 msgid "Flip names that are on the bottom half of the fan"
 msgstr ""
 
-#: ../gramps/plugins/drawreport/fanchart.py:856
+#: ../gramps/plugins/drawreport/fanchart.py:850
 msgid "Flip names for generations 2, 3 and 4 i.e. those found in circles"
 msgstr ""
 
-#: ../gramps/plugins/drawreport/fanchart.py:912
+#: ../gramps/plugins/drawreport/fanchart.py:854
+#, fuzzy
+#| msgid "The title of the calendar"
+msgid "Exclude the title of the chart"
+msgstr "Ο τίτλος του ημερολογίου"
+
+#: ../gramps/plugins/drawreport/fanchart.py:855
+msgid "Exclude the title to make more room for the chart"
+msgstr ""
+
+#: ../gramps/plugins/drawreport/fanchart.py:910
 #, fuzzy, python-format
 msgid "The style used for the text display of generation \"%d\""
 msgstr ""
@@ -41091,6 +41097,11 @@ msgstr "Αποχρώσεις καφέ-γκρι"
 #: ../gramps/plugins/webstuff/webstuff.py:230
 msgid "No style sheet"
 msgstr "Χωρίς χρωματικό θέμα"
+
+#, fuzzy
+#~| msgid "Unstable"
+#~ msgid "Uninstalled"
+#~ msgstr "Ασταθής"
 
 #, fuzzy
 #~ msgid "Personal map"

@@ -203,8 +203,18 @@ class AddonRow(Gtk.ListBoxRow):
         context = self.get_style_context()
         context.add_class("addon-row")
 
-        vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
-        vbox.set_spacing(6)
+        self.vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        self.vbox.set_spacing(6)
+        self.__build_gui(self.vbox, self.addon, self.req)
+        self.add(self.vbox)
+        self.show_all()
+
+    def __build_gui(self, vbox, addon, req):
+        """
+        Build the GUI for this addon row.
+        """
+        for child in vbox.get_children():
+            vbox.remove(child)
 
         text = escape(addon["n"])
         title = Gtk.Label()
@@ -265,9 +275,7 @@ class AddonRow(Gtk.ListBoxRow):
             bb.pack_end(b4, False, False, 0)
 
         vbox.pack_start(bb, False, False, 0)
-
-        self.add(vbox)
-        self.show_all()
+        vbox.show_all()
 
     def __on_install_clicked(self, button, addon):
         """
@@ -289,11 +297,25 @@ class AddonRow(Gtk.ListBoxRow):
                 )
                 return
 
+        if not self.req.check_addon(addon):
+            InfoDialog(
+                _("Module installation failed"),
+                _("Gramps was unable to install the required modules"),
+                parent=self.window,
+            )
+            return
+
         # Install addon
         path = addon["_u"] + "/download/" + addon["z"]
         load_addon_file(path)
         self.manager.install_addon(addon["i"])
-        self.manager.refresh()
+
+        # Refresh this row
+        pmgr = GuiPluginManager.get_instance()
+        plugin = pmgr.get_plugin(addon["i"])
+        if plugin:
+            self.addon["_v"] = plugin.version
+        self.__build_gui(self.vbox, self.addon, self.req)
 
     def __on_wiki_clicked(self, button, url):
         """
@@ -390,7 +412,7 @@ class AddonManager(ManagedWindow):
         self.addon_combo = Gtk.ComboBoxText()
         self.addon_combo.set_entry_text_column(0)
         self.addon_combo.append_text(_("All addons"))
-        self.addon_combo.append_text(_("Uninstalled"))
+        self.addon_combo.append_text(_("Not installed"))
         self.addon_combo.append_text(_("Installed"))
         self.addon_combo.append_text(_("Update"))
         self.addon_combo.set_active(0)
@@ -585,7 +607,7 @@ class AddonManager(ManagedWindow):
         audience_iter = self.audience_combo.get_active_iter()
         status_iter = self.status_combo.get_active_iter()
 
-        if addon_text == _("Uninstalled"):
+        if addon_text == _("Not installed"):
             if "_v" in row.addon:
                 return False
         if addon_text == _("Installed"):
@@ -648,7 +670,6 @@ class AddonManager(ManagedWindow):
         self.project_list.set_selection_mode(Gtk.SelectionMode.SINGLE)
         self.project_list.connect("row-activated", self.__edit_project)
         self.project_list.connect("row-selected", self.__project_selected)
-        self.project_list.set_margin_start(6)
 
         sw = Gtk.ScrolledWindow()
         sw.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
