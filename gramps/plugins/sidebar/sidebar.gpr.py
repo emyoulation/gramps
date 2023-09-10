@@ -43,6 +43,8 @@ register(
     sidebarclass="CategorySidebar",
     menu_label=_("Category"),
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Main_Window#Category_navigator_mode_.28default.29"),
+
 )
 
 register(
@@ -59,6 +61,7 @@ register(
     sidebarclass="DropdownSidebar",
     menu_label=_("Drop-Down"),
     order=END,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Main_Window#Drop-Down_navigator_mode"),
 )
 
 register(
@@ -75,4 +78,5 @@ register(
     sidebarclass="ExpanderSidebar",
     menu_label=_("Expander"),
     order=END,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Main_Window#Expander_navigator_mode"),
 )

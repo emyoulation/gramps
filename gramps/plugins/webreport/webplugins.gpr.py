@@ -47,6 +47,7 @@ plg.category = CATEGORY_WEB
 plg.reportclass = "NavWebReport"
 plg.optionclass = "NavWebOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI]
+plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_7#Narrated_Web_Site")
 
 
 # ------------------------------------------------------------------------
@@ -70,3 +71,4 @@ plg.category = CATEGORY_WEB
 plg.reportclass = "WebCalReport"
 plg.optionclass = "WebCalOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI]
+plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_7#Web_Calendar")

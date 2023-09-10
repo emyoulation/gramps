@@ -47,6 +47,7 @@ register(
     category=("Events", _("Events")),
     viewclass="EventView",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Events_View"),
 )
 
 register(
@@ -63,6 +64,7 @@ register(
     category=("Families", _("Families")),
     viewclass="FamilyView",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Families_Category"),
 )
 
 register(
@@ -79,6 +81,7 @@ register(
     category=("Dashboard", _("Dashboard")),
     viewclass="DashboardView",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Dashboard_Category"),
 )
 
 register(
@@ -95,6 +98,7 @@ register(
     category=("Media", _("Media")),
     viewclass="MediaView",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Media_List_View"),
 )
 
 register(
@@ -111,6 +115,7 @@ register(
     category=("Notes", _("Notes")),
     viewclass="NoteView",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Notes_List_View"),
 )
 
 register(
@@ -127,6 +132,7 @@ register(
     category=("Relationships", _("Relationships")),
     viewclass="RelationshipView",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Relationships_Category_view"),
 )
 
 register(
@@ -144,6 +150,7 @@ register(
     viewclass="PedigreeView",
     order=START,
     stock_icon="gramps-pedigree",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Pedigree_View"),
 )
 
 register(
@@ -160,6 +167,7 @@ register(
     authors_email=["doug.blank@gmail.com", "benny.malengier@gmail.com"],
     viewclass="FanChartView",
     stock_icon="gramps-fanchart",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Fan_Chart_View"),
 )
 
 register(
@@ -176,6 +184,7 @@ register(
     authors_email=["benny.malengier@gmail.com"],
     viewclass="FanChartDescView",
     stock_icon="gramps-fanchartdesc",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Descendant_Fan_View"),
 )
 
 register(
@@ -192,6 +201,7 @@ register(
     authors_email=["bastien.jacquet_dev@m4x.org"],
     viewclass="FanChart2WayView",
     stock_icon="gramps-fanchart2way",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#2-Way_Fan_View"),
 )
 
 register(
@@ -211,6 +221,7 @@ register(
     viewclass="PersonTreeView",
     order=START,
     stock_icon="gramps-tree-group",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Tree_View_-_Grouped_People"),
 )
 
 register(
@@ -227,6 +238,7 @@ register(
     category=("People", _("People")),
     viewclass="PersonListView",
     stock_icon="gramps-tree-list",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#People_List_View"),
 )
 
 register(
@@ -243,6 +255,7 @@ register(
     category=("Places", _("Places")),
     viewclass="PlaceListView",
     stock_icon="gramps-tree-list",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Places_List_View"),
 )
 
 register(
@@ -260,6 +273,7 @@ register(
     viewclass="PlaceTreeView",
     stock_icon="gramps-tree-group",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Places_Tree_View"),
 )
 
 register(
@@ -276,6 +290,7 @@ register(
     category=("Repositories", _("Repositories")),
     viewclass="RepositoryView",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Repository_List_View"),
 )
 
 register(
@@ -293,6 +308,7 @@ register(
     viewclass="SourceView",
     order=START,
     stock_icon="gramps-tree-list",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Sources_List_View"),
 )
 
 register(
@@ -309,6 +325,7 @@ register(
     category=("Citations", _("Citations")),
     viewclass="CitationListView",
     order=START,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Citations_List_View"),
 )
 
 register(
@@ -325,4 +342,5 @@ register(
     category=("Sources", _("Sources")),
     viewclass="CitationTreeView",
     stock_icon="gramps-tree-select",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Citation_Tree_View"),
 )

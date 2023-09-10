@@ -48,6 +48,7 @@ plg.reportclass = "FamilyLinesReport"
 plg.optionclass = "FamilyLinesOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI]
 plg.require_active = False
+plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_5#Family_Lines_Graph")
 
 # ------------------------------------------------------------------------
 #
@@ -70,6 +71,7 @@ plg.category = CATEGORY_GRAPHVIZ
 plg.reportclass = "HourGlassReport"
 plg.optionclass = "HourGlassOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI]
+plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_5#Hourglass_Graph")
 
 # ------------------------------------------------------------------------
 #
@@ -92,3 +94,4 @@ plg.category = CATEGORY_GRAPHVIZ
 plg.reportclass = "RelGraphReport"
 plg.optionclass = "RelGraphOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI]
+plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_5#Relationship_Graph")

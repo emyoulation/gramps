@@ -52,6 +52,7 @@ register(
     toolclass="ChangeNames",
     optionclass="ChangeNamesOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Fix_Capitalization_of_Family_Names"),
 )
 
 # ------------------------------------------------------------------------
@@ -77,6 +78,7 @@ register(
     toolclass="ChangeTypes",
     optionclass="ChangeTypesOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Rename_Event_Types"),
 )
 
 # ------------------------------------------------------------------------
@@ -102,6 +104,7 @@ register(
     toolclass="Check",
     optionclass="CheckOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Check_and_Repair_Database"),
 )
 
 # ------------------------------------------------------------------------
@@ -129,6 +132,7 @@ register(
     toolclass="EventComparison",
     optionclass="EventComparisonOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Compare_Individual_Events"),
 )
 
 # ------------------------------------------------------------------------
@@ -152,6 +156,7 @@ register(
     toolclass="EventNames",
     optionclass="EventNamesOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Extract_Event_Description"),
 )
 
 # ------------------------------------------------------------------------
@@ -178,6 +183,7 @@ register(
     toolclass="DuplicatePeopleTool",
     optionclass="DuplicatePeopleToolOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Find_Possible_Duplicate_People"),
 )
 
 # ------------------------------------------------------------------------
@@ -201,6 +207,7 @@ register(
     toolclass="MediaMan",
     optionclass="MediaManOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Media_Manager"),
 )
 
 # ------------------------------------------------------------------------
@@ -226,6 +233,7 @@ register(
     toolclass="NotRelated",
     optionclass="NotRelatedOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Not_Related"),
 )
 
 # ------------------------------------------------------------------------
@@ -249,6 +257,7 @@ register(
     toolclass="OwnerEditor",
     optionclass="OwnerEditorOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Edit_Database_Owner_Information"),
 )
 
 # ------------------------------------------------------------------------
@@ -274,6 +283,7 @@ register(
     toolclass="PatchNames",
     optionclass="PatchNamesOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Extract_Information_from_Names"),
 )
 
 # ------------------------------------------------------------------------
@@ -297,6 +307,7 @@ register(
     toolclass="Rebuild",
     optionclass="RebuildOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Rebuild_Secondary_Indexes"),
 )
 
 # ------------------------------------------------------------------------
@@ -320,6 +331,7 @@ register(
     toolclass="RebuildRefMap",
     optionclass="RebuildRefMapOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Rebuild_Reference_Maps"),
 )
 
 # ------------------------------------------------------------------------
@@ -343,6 +355,7 @@ register(
     toolclass="RebuildGenderStat",
     optionclass="RebuildGenderStatOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Rebuild_Gender_Statistics"),
 )
 
 # ------------------------------------------------------------------------
@@ -366,6 +379,7 @@ register(
     toolclass="RelCalc",
     optionclass="RelCalcOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Relationship_Calculator"),
 )
 
 # ------------------------------------------------------------------------
@@ -389,6 +403,7 @@ register(
     toolclass="RemoveUnused",
     optionclass="CheckOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Remove_Unused_Objects"),
 )
 
 # ------------------------------------------------------------------------
@@ -412,6 +427,7 @@ register(
     toolclass="ReorderIds",
     optionclass="ReorderIdsOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Reorder_Gramps_ID"),
 )
 
 # ------------------------------------------------------------------------
@@ -435,6 +451,7 @@ register(
     toolclass="SortEvents",
     optionclass="SortEventOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Sort_Events"),
 )
 
 # ------------------------------------------------------------------------
@@ -458,6 +475,7 @@ register(
     toolclass="Verify",
     optionclass="VerifyOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Verify_the_Data"),
 )
 
 # ------------------------------------------------------------------------
@@ -484,6 +502,7 @@ register(
     toolclass="MergeCitations",
     optionclass="MergeCitationsOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Merge_citations"),
 )
 
 # ------------------------------------------------------------------------
@@ -507,6 +526,7 @@ register(
     toolclass="FindLoop",
     optionclass="FindLoopOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Find_database_loop"),
 )
 
 # ------------------------------------------------------------------------
@@ -535,4 +555,5 @@ register(
     toolclass="RemoveSpaces",
     optionclass="RemoveSpacesOptions",
     tool_modes=[TOOL_MODE_GUI],
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Clean_input_data"),
 )

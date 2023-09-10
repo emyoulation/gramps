@@ -44,6 +44,7 @@ register(
     authors_email=["dblank@cs.brynmawr.edu"],
     category=CATEGORY_QR_DATE,
     runfunc="run",
+    help_url = _(""),
 )
 
 # ------------------------------------------------------------------------
@@ -65,6 +66,7 @@ register(
     authors_email=["dblank@cs.brynmawr.edu"],
     category=CATEGORY_QR_MISC,
     runfunc="run",
+    help_url = _(""),
 )
 
 # ------------------------------------------------------------------------
@@ -86,6 +88,7 @@ register(
     authors_email=["don@gramps-project.org"],
     category=CATEGORY_QR_PERSON,
     runfunc="run",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#All_Events"),
 )
 
 
@@ -102,6 +105,7 @@ register(
     authors_email=["benny.malengier@gramps-project.org"],
     category=CATEGORY_QR_FAMILY,
     runfunc="run_fam",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#All_Family_Events"),
 )
 
 # ------------------------------------------------------------------------
@@ -123,6 +127,7 @@ register(
     authors_email=["benny.malengier@gramps-project.org"],
     category=CATEGORY_QR_PERSON,
     runfunc="run",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Relation_to_Home_Person"),
 )
 
 # ------------------------------------------------------------------------
@@ -144,6 +149,7 @@ register(
     authors_email=["dblank@cs.brynmawr.edu"],
     category=CATEGORY_QR_MISC,
     runfunc="run",
+    help_url = _(""),
 )
 
 # ------------------------------------------------------------------------
@@ -165,6 +171,7 @@ register(
     authors_email=["benny.malengier@gramps-project.org"],
     category=CATEGORY_QR_PERSON,
     runfunc="run_father",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Father_lineage"),
 )
 
 register(
@@ -180,6 +187,7 @@ register(
     authors_email=["benny.malengier@gramps-project.org"],
     category=CATEGORY_QR_PERSON,
     runfunc="run_mother",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Mother_linage"),
 )
 
 # ------------------------------------------------------------------------
@@ -201,6 +209,7 @@ register(
     authors_email=["dblank@cs.brynmawr.edu"],
     category=CATEGORY_QR_EVENT,
     runfunc="run",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#On_This_Day"),
 )
 
 # ------------------------------------------------------------------------
@@ -235,6 +244,7 @@ for category, item, trans in refitems:
         authors_email=["dblank@cs.brynmawr.edu"],
         category=category,
         runfunc="run_%s" % item,
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Category_References"),
     )
 
 register(
@@ -250,6 +260,7 @@ register(
     authors_email=["doug.blank@gmail.com"],
     category=CATEGORY_QR_NOTE,
     runfunc="run",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Link_References"),
 )
 
 # ------------------------------------------------------------------------
@@ -274,6 +285,7 @@ register(
     authors_email=["romjerome@yahoo.fr"],
     category=CATEGORY_QR_REPOSITORY,
     runfunc="run",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Repository_References"),
 )
 
 # ------------------------------------------------------------------------
@@ -295,6 +307,7 @@ register(
     authors_email=["dblank@cs.brynmawr.edu"],
     category=CATEGORY_QR_PERSON,
     runfunc="run",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Same_Surnames"),
 )
 
 register(
@@ -310,6 +323,7 @@ register(
     authors_email=["dblank@cs.brynmawr.edu"],
     category=CATEGORY_QR_PERSON,
     runfunc="run_given",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Same_Given_Names"),
 )
 
 register(
@@ -325,6 +339,7 @@ register(
     authors_email=["dblank@cs.brynmawr.edu"],
     category=CATEGORY_QR_MISC,
     runfunc="run_given",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Same_Given_Names"),
 )
 
 # ------------------------------------------------------------------------
@@ -345,4 +360,5 @@ register(
     authors_email=["don@gramps-project.org"],
     category=CATEGORY_QR_PERSON,
     runfunc="run",
+    help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_8#Siblings"),
 )
