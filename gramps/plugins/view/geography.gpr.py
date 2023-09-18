@@ -107,7 +107,7 @@ else:
         viewclass="GeoPerson",
         # order = START,
         stock_icon="geo-show-person",
-        help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#All_known_places_for_one_person"),
+        help_url = "Gramps_5.2_Wiki_Manual_-_Categories#All_known_places_for_one_person",
     )
 
     register(
@@ -127,7 +127,7 @@ else:
         viewclass="GeoFamily",
         # order = START,
         stock_icon="geo-show-family",
-        help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#All_known_places_for_one_Family"),
+        help_url = "Gramps_5.2_Wiki_Manual_-_Categories#All_known_places_for_one_Family",
     )
 
     register(
@@ -151,7 +151,7 @@ else:
         viewclass="GeoMoves",
         # order = START,
         stock_icon="geo-show-family-down",
-        help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Every_residence_or_move_for_a_person_and_any_descendants"),
+        help_url = "Gramps_5.2_Wiki_Manual_-_Categories#Every_residence_or_move_for_a_person_and_any_descendants",
     )
 
     register(
@@ -173,7 +173,7 @@ else:
         viewclass="GeoFamClose",
         # order = START,
         stock_icon="geo-show-family",
-        help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Have_these_two_families_been_able_to_meet_.3F"),
+        help_url = "Gramps_5.2_Wiki_Manual_-_Categories#Have_these_two_families_been_able_to_meet_.3F",
     )
 
     register(
@@ -195,7 +195,7 @@ else:
         viewclass="GeoClose",
         # order = START,
         stock_icon="gramps-relation",
-        help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Have_they_been_able_to_meet_.3F"),
+        help_url = "Gramps_5.2_Wiki_Manual_-_Categories#Have_they_been_able_to_meet_.3F",
     )
 
     register(
@@ -213,7 +213,7 @@ else:
         viewclass="GeoPlaces",
         # order = START,
         stock_icon="geo-show-place",
-        help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#All_known_places"),
+        help_url = "Gramps_5.2_Wiki_Manual_-_Categories#All_known_places",
     )
 
     register(
@@ -231,5 +231,5 @@ else:
         viewclass="GeoEvents",
         # order = START,
         stock_icon="geo-show-event",
-        help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#All_places_related_to_Events"),
+        help_url = "Gramps_5.2_Wiki_Manual_-_Categories#All_places_related_to_Events",
     )

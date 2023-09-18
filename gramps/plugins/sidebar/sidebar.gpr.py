@@ -39,12 +39,11 @@ register(
     status=STABLE,
     fname="categorysidebar.py",
     authors=["Nick Hall"],
-    authors_email=["nick__hall@hotmail.com"],
+    authors_email=["nick-h@gramps-project.org"],
     sidebarclass="CategorySidebar",
     menu_label=_("Category"),
     order=START,
-    help_url = _("Gramps_5.2_Wiki_Manual_-_Main_Window#Category_navigator_mode_.28default.29"),
-
+    help_url = "Gramps_5.2_Wiki_Manual_-_Main_Window#Category_navigator_mode_.28default.29",
 )
 
 register(
@@ -57,11 +56,11 @@ register(
     status=STABLE,
     fname="dropdownsidebar.py",
     authors=["Nick Hall"],
-    authors_email=["nick__hall@hotmail.com"],
+    authors_email=["nick-h@gramps-project.org"],
     sidebarclass="DropdownSidebar",
     menu_label=_("Drop-Down"),
     order=END,
-    help_url = _("Gramps_5.2_Wiki_Manual_-_Main_Window#Drop-Down_navigator_mode"),
+    help_url = "Gramps_5.2_Wiki_Manual_-_Main_Window#Drop-Down_navigator_mode",
 )
 
 register(
@@ -74,9 +73,9 @@ register(
     status=STABLE,
     fname="expandersidebar.py",
     authors=["Nick Hall"],
-    authors_email=["nick__hall@hotmail.com"],
+    authors_email=["nick-h@gramps-project.org"],
     sidebarclass="ExpanderSidebar",
     menu_label=_("Expander"),
     order=END,
-    help_url = _("Gramps_5.2_Wiki_Manual_-_Main_Window#Expander_navigator_mode"),
+    help_url = "Gramps_5.2_Wiki_Manual_-_Main_Window#Expander_navigator_mode",
 )

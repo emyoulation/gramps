@@ -48,7 +48,7 @@ plg.export_function = "exportData"
 plg.export_options = "CSVWriterOptionBox"
 plg.export_options_title = _("CSV spreadsheet options")
 plg.extension = "csv"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Comma_Separated_Values_Spreadsheet.28CSV.29_export")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Comma_Separated_Values_Spreadsheet.28CSV.29_export"
 
 # ------------------------------------------------------------------------
 #
@@ -70,7 +70,7 @@ plg.export_function = "writeData"
 plg.export_options = "WriterOptionBox"
 plg.export_options_title = _("Web Family Tree export options")
 plg.extension = "wft"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Web_Family_Tree_export")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Web_Family_Tree_export"
 
 # ------------------------------------------------------------------------
 #
@@ -95,7 +95,7 @@ plg.export_function = "export_data"
 plg.export_options = "WriterOptionBox"
 plg.export_options_title = _("GEDCOM export options")
 plg.extension = "ged"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#GEDCOM_export")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#GEDCOM_export"
 
 # ------------------------------------------------------------------------
 #
@@ -117,7 +117,7 @@ plg.export_function = "exportData"
 plg.export_options = "WriterOptionBox"
 plg.export_options_title = _("GeneWeb export options")
 plg.extension = "gw"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#GeneWeb_export")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#GeneWeb_export"
 
 # ------------------------------------------------------------------------
 #
@@ -142,7 +142,7 @@ plg.export_function = "writeData"
 plg.export_options = "WriterOptionBox"
 plg.export_options_title = _("Gramps package export options")
 plg.extension = "gpkg"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_XML_Package_.28family_tree_and_media.29_export")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_XML_Package_.28family_tree_and_media.29_export"
 
 # ------------------------------------------------------------------------
 #
@@ -168,7 +168,7 @@ plg.export_function = "export_data"
 plg.export_options = "WriterOptionBoxWithCompression"
 plg.export_options_title = _("Gramps XML export options")
 plg.extension = "gramps"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_XML_.28family_tree.29_export")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_XML_.28family_tree.29_export"
 
 # ------------------------------------------------------------------------
 #
@@ -190,7 +190,7 @@ plg.export_function = "exportData"
 plg.export_options = "WriterOptionBox"
 plg.export_options_title = _("vCalendar export options")
 plg.extension = "vcs"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#vCalendar_export")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#vCalendar_export"
 
 # ------------------------------------------------------------------------
 #
@@ -212,4 +212,4 @@ plg.export_function = "exportData"
 plg.export_options = "WriterOptionBox"
 plg.export_options_title = _("vCard export options")
 plg.extension = "vcf"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#vCard_export")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#vCard_export"

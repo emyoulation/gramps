@@ -43,7 +43,7 @@ plg.fname = "importcsv.py"
 plg.ptype = IMPORT
 plg.import_function = "importData"
 plg.extension = "csv"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_CSV_import")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_CSV_import"
 
 # ------------------------------------------------------------------------
 #
@@ -65,7 +65,7 @@ plg.fname = "importgedcom.py"
 plg.ptype = IMPORT
 plg.import_function = "importData"
 plg.extension = "ged"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#GEDCOM_import")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#GEDCOM_import"
 
 # ------------------------------------------------------------------------
 #
@@ -84,7 +84,7 @@ plg.fname = "importgeneweb.py"
 plg.ptype = IMPORT
 plg.import_function = "importData"
 plg.extension = "gw"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Importing_data")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Importing_data"
 
 # ------------------------------------------------------------------------
 #
@@ -106,7 +106,7 @@ plg.fname = "importgpkg.py"
 plg.ptype = IMPORT
 plg.import_function = "impData"
 plg.extension = "gpkg"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_XML_and_XML_Package_import")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_XML_and_XML_Package_import"
 
 # ------------------------------------------------------------------------
 #
@@ -130,7 +130,7 @@ plg.fname = "importxml.py"
 plg.ptype = IMPORT
 plg.import_function = "importData"
 plg.extension = "gramps"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_XML_and_XML_Package_import")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Gramps_XML_and_XML_Package_import"
 
 # ------------------------------------------------------------------------
 #
@@ -149,7 +149,7 @@ plg.fname = "importgrdb.py"
 plg.ptype = IMPORT
 plg.import_function = "importData"
 plg.extension = "grdb"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#GRAMPS_V2.x_database_import")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#GRAMPS_V2.x_database_import"
 
 # ------------------------------------------------------------------------
 #
@@ -168,7 +168,7 @@ plg.fname = "importprogen.py"
 plg.ptype = IMPORT
 plg.import_function = "_importData"
 plg.extension = "def"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Importing_data")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Importing_data"
 
 # ------------------------------------------------------------------------
 #
@@ -187,4 +187,4 @@ plg.fname = "importvcard.py"
 plg.ptype = IMPORT
 plg.import_function = "importData"
 plg.extension = "vcf"
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Importing_data")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Manage_Family_Trees#Importing_data"

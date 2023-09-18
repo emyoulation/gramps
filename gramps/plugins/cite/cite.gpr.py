@@ -41,5 +41,5 @@ register(
     gramps_target_version = MODULE_VERSION,
     status = STABLE,
     audience = EVERYONE,
-    help_url = _("Gramps_5.2_Wiki_Manual_-_Categories#Citations_Category"),
+    help_url = "Gramps_5.2_Wiki_Manual_-_Categories#Citations_Category",
 )

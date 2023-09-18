@@ -48,7 +48,7 @@ plg.category = CATEGORY_DRAW
 plg.reportclass = "AncestorTree"
 plg.optionclass = "AncestorTreeOptions"
 plg.report_modes = [REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Ancestor_Tree")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Ancestor_Tree"
 
 plg = newplugin()
 plg.id = "ancestor_chart"
@@ -65,7 +65,7 @@ plg.category = CATEGORY_DRAW
 plg.reportclass = "AncestorTree"
 plg.optionclass = "AncestorTreeOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Ancestor_Tree")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Ancestor_Tree"
 
 # ------------------------------------------------------------------------
 #
@@ -88,7 +88,7 @@ plg.category = CATEGORY_DRAW
 plg.reportclass = "Calendar"
 plg.optionclass = "CalendarOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Calendar")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Calendar"
 
 
 # ------------------------------------------------------------------------
@@ -112,7 +112,7 @@ plg.category = CATEGORY_DRAW
 plg.reportclass = "DescendTree"
 plg.optionclass = "DescendTreeOptions"
 plg.report_modes = [REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Descendant_Tree")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Descendant_Tree"
 
 plg = newplugin()
 plg.id = "descend_chart"
@@ -129,7 +129,7 @@ plg.category = CATEGORY_DRAW
 plg.reportclass = "DescendTree"
 plg.optionclass = "DescendTreeOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Descendant_Tree")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Descendant_Tree"
 
 # ------------------------------------------------------------------------
 #
@@ -153,7 +153,7 @@ plg.require_active = True
 plg.reportclass = "DescendTree"
 plg.optionclass = "DescendTreeOptions"
 plg.report_modes = [REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Family_Descendant_Tree")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Family_Descendant_Tree"
 
 plg = newplugin()
 plg.id = "family_descend_chart"
@@ -171,7 +171,7 @@ plg.require_active = True
 plg.reportclass = "DescendTree"
 plg.optionclass = "DescendTreeOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Family_Descendant_Tree")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Family_Descendant_Tree"
 
 # ------------------------------------------------------------------------
 #
@@ -194,7 +194,7 @@ plg.category = CATEGORY_DRAW
 plg.reportclass = "FanChart"
 plg.optionclass = "FanChartOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Fan_Chart")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Fan_Chart"
 
 # ------------------------------------------------------------------------
 #
@@ -220,7 +220,7 @@ plg.reportclass = "StatisticsChart"
 plg.optionclass = "StatisticsChartOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
 plg.require_active = False
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Timeline_Chart")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Timeline_Chart"
 
 # ------------------------------------------------------------------------
 #
@@ -243,4 +243,4 @@ plg.category = CATEGORY_DRAW
 plg.reportclass = "TimeLine"
 plg.optionclass = "TimeLineOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Scale_and_Resize_options")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_4#Scale_and_Resize_options"

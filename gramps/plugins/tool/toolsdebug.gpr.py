@@ -55,7 +55,7 @@ register(
     toolclass="DateParserDisplayTest",
     optionclass="DateParserDisplayTestOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
-    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Check_Localized_Date_Displayer_and_Parser"),
+    help_url = "Gramps_5.2_Wiki_Manual_-_Tools#Check_Localized_Date_Displayer_and_Parser",
 )
 
 # ------------------------------------------------------------------------
@@ -81,7 +81,7 @@ register(
     toolclass="DumpGenderStats",
     optionclass="DumpGenderStatsOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
-    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Dump_Gender_Statistics"),
+    help_url = "Gramps_5.2_Wiki_Manual_-_Tools#Dump_Gender_Statistics",
 )
 
 # ------------------------------------------------------------------------
@@ -109,7 +109,7 @@ register(
     toolclass="TestcaseGenerator",
     optionclass="TestcaseGeneratorOptions",
     tool_modes=[TOOL_MODE_GUI, TOOL_MODE_CLI],
-    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Generate_Testcases_for_Persons_and_Families"),
+    help_url = "Gramps_5.2_Wiki_Manual_-_Tools#Generate_Testcases_for_Persons_and_Families",
 )
 
 # ------------------------------------------------------------------------
@@ -137,5 +137,5 @@ register(
     toolclass="PopulateSources",
     optionclass="PopulateSourcesOptions",
     tool_modes=[TOOL_MODE_GUI],
-    help_url = _("Gramps_5.2_Wiki_Manual_-_Tools#Populate_Sources_and_Citations"),
+    help_url = "Gramps_5.2_Wiki_Manual_-_Tools#Populate_Sources_and_Citations",
 )

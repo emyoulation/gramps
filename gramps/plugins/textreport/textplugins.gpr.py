@@ -48,7 +48,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "AncestorReport"
 plg.optionclass = "AncestorOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Ahnentafel_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Ahnentafel_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -71,7 +71,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "BirthdayReport"
 plg.optionclass = "BirthdayOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Birthday_and_Anniversary_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Birthday_and_Anniversary_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -94,7 +94,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "CustomText"
 plg.optionclass = "CustomTextOptions"
 plg.report_modes = [REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_3#Custom_Text")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_3#Custom_Text"
 
 # ------------------------------------------------------------------------
 #
@@ -117,7 +117,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "DescendantReport"
 plg.optionclass = "DescendantOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Descendant_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Descendant_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -140,7 +140,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "DetAncestorReport"
 plg.optionclass = "DetAncestorOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Detailed_Ancestral_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Detailed_Ancestral_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -163,7 +163,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "DetDescendantReport"
 plg.optionclass = "DetDescendantOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Detailed_Descendant_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Detailed_Descendant_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -186,7 +186,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "EndOfLineReport"
 plg.optionclass = "EndOfLineOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#End_of_Line_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#End_of_Line_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -212,7 +212,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "FamilyGroup"
 plg.optionclass = "FamilyGroupOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Family_Group_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Family_Group_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -235,7 +235,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "IndivCompleteReport"
 plg.optionclass = "IndivCompleteOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Complete_Individual_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Complete_Individual_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -258,7 +258,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "KinshipReport"
 plg.optionclass = "KinshipOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Kinship_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Kinship_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -282,7 +282,7 @@ plg.reportclass = "TagReport"
 plg.optionclass = "TagOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
 plg.require_active = False
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Tag_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Tag_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -305,7 +305,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "NumberOfAncestorsReport"
 plg.optionclass = "NumberOfAncestorsOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Number_of_Ancestors_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Number_of_Ancestors_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -329,7 +329,7 @@ plg.reportclass = "PlaceReport"
 plg.optionclass = "PlaceOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
 plg.require_active = False
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Place_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Place_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -352,7 +352,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "SimpleBookTitle"
 plg.optionclass = "SimpleBookTitleOptions"
 plg.report_modes = [REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_3#Title_Page")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_3#Title_Page"
 
 # ------------------------------------------------------------------------
 #
@@ -376,7 +376,7 @@ plg.reportclass = "SummaryReport"
 plg.optionclass = "SummaryOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_BKI, REPORT_MODE_CLI]
 plg.require_active = False
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Database_Summary_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Database_Summary_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -399,7 +399,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "TableOfContents"
 plg.optionclass = "TableOfContentsOptions"
 plg.report_modes = [REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_3#Table_of_contents")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_3#Table_of_contents"
 
 # ------------------------------------------------------------------------
 #
@@ -422,7 +422,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "AlphabeticalIndex"
 plg.optionclass = "AlphabeticalIndexOptions"
 plg.report_modes = [REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_3#Alphabetical_Index")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_3#Alphabetical_Index"
 
 # ------------------------------------------------------------------------
 #
@@ -445,7 +445,7 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "RecordsReport"
 plg.optionclass = "RecordsReportOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI, REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Records_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Records_Report"
 
 # ------------------------------------------------------------------------
 #
@@ -468,4 +468,4 @@ plg.category = CATEGORY_TEXT
 plg.reportclass = "NoteLinkReport"
 plg.optionclass = "NoteLinkOptions"
 plg.report_modes = [REPORT_MODE_GUI, REPORT_MODE_CLI, REPORT_MODE_BKI]
-plg.help_url = _("Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Note_Link_Report")
+plg.help_url = "Gramps_5.2_Wiki_Manual_-_Reports_-_part_6#Note_Link_Report"
