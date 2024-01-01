@@ -50,7 +50,7 @@ class HasEvent(HasEventBase):
     labels = [
         _("Personal event:"),
         _("Date:"),
-        _("Place:"),
+        _("Place Title:"),
         _("Description:"),
         _("Main Participants:"),
         _("Primary Role:"),
