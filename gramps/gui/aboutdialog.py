@@ -179,7 +179,7 @@ class GrampsAboutDialog(Gtk.AboutDialog):
             + distro
         ) % (
             ellipses(str(VERSION)),
-            ellipses(str(sys.version).replace("\n", "")),
+            ellipses(platform.python_version()),
             BSDDB_STR,
             ellipses(get_env_var("LANG", "")),
             ellipses(platform.system()),
@@ -195,8 +195,8 @@ class AuthorParser(handler.ContentHandler):
     """Parse the ``authors.xml`` file to show in the About dialog.
 
     The ``authors.xml`` file has the same format as the one in the `svn2cl
-    <http://ch.tudelft.nl/~arthur/svn2cl/>`_ package, with an additional
-    ``title`` tag in the ``author`` element. For example::
+    <https://web.archive.org/web/20070323201820/http://ch.tudelft.nl/~arthur/svn2cl/>`_ package,
+    with an additional ``title`` tag in the ``author`` element. For example::
 
       <author uid="dallingham" title="author">
         Don Allingham &lt;<html:a href="mailto:don@gramps-project.org">don@gramps-project.org</html:a>&gt;
