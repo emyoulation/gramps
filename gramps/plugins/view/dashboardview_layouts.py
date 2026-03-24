@@ -11,26 +11,14 @@
 # Foundation, either version 2 of the License, or (at your option) any later
 # version.
 #
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program. If not, see <https://www.gnu.org/licenses/>.
-#
 # Generated-by: OpenAI GPT-4, API, March 2026
-# Prompts: "Implement a Dashboard that can switch between multiple dashboard
-#          view .ini files with complete code, pylint/black formatting,
-#          and Gramps guidelines compliance"
-# Code was reviewed and manually modified by human developer.
-# Co-authored-by: <Your Name>
+# Co-authored-by: Brian McCullough emyoulation@yahoo.com
 
 """
 DashboardLayoutManager for Gramps Dashboard View Profile System.
 
 Provides management and validation for multiple Dashboard layouts with
-.ini versioning, CRUD operations, and version validation.
+minimal metadata footprint and cross-platform support.
 """
 
 import logging
@@ -38,6 +26,11 @@ import os
 import shutil
 from configparser import ConfigParser, ParsingError
 from typing import List, Optional
+
+from dashboardview_layouts_compat import (
+    CompatibilityChecker,
+    EnvironmentMetadata,
+)
 
 LOG = logging.getLogger(__name__)
 
@@ -49,17 +42,29 @@ INI_NAME_PREFIX = "dashboard_"
 INI_NAME_SUFFIX = ".ini"
 
 # INI file structure constants
+SECTION_ENVIRONMENT = "GrampsEnvironment"
 SECTION_LAYOUT = "DashboardLayout"
+SECTION_GRAMPLET_CONFIG = "GrampletConfiguration"
 SECTION_DOCKED = "DockedGramplets"
 SECTION_UNDOCKED = "UndockedGramplets"
 KEY_VERSION = "version"
 KEY_COLUMNS = "columns"
+KEY_REQUIRED_GRAMPLETS = "required_gramplet_ids"
 KEY_ORDER = "order"
 
 # Default layout template
-_DEFAULT_LAYOUT = f"""[{SECTION_LAYOUT}]
+_DEFAULT_LAYOUT = f"""[{SECTION_ENVIRONMENT}]
+gramps_version = 
+os_name = 
+locale_language = 
+locale_encoding = 
+
+[{SECTION_LAYOUT}]
 {KEY_VERSION} = {LAYOUTS_VERSION}
 {KEY_COLUMNS} = 2
+
+[{SECTION_GRAMPLET_CONFIG}]
+{KEY_REQUIRED_GRAMPLETS} = 
 
 [{SECTION_DOCKED}]
 {KEY_ORDER} = Welcome,Top Surnames,Calendar
@@ -81,18 +86,17 @@ class DashboardLayoutManager:
 
     Each profile is a versioned INI file (.ini) stored in the layouts
     directory. Handles validation, CRUD operations, and active profile
-    selection.
+    selection. Can be reused by other dashboard-style views (e.g., CardView).
 
     Attributes:
         config (ConfigParser): Configuration for active layout tracking
-        _layouts_dir (str): Directory path for layout INI files
     """
 
     def __init__(self) -> None:
         """Initialize the layout manager with directory setup."""
         os.makedirs(LAYOUTS_DIR, exist_ok=True)
         self.config = ConfigParser()
-        self._layouts_dir = LAYOUTS_DIR
+        self.compat_checker = CompatibilityChecker()
         self._load_config()
 
     def list_layouts(self) -> List[str]:
@@ -100,12 +104,12 @@ class DashboardLayoutManager:
         Return list of available layout names.
 
         Returns:
-            List of layout names (without .ini suffix)
+            List of layout names sorted alphabetically
         """
         try:
             layouts = [
                 fname[len(INI_NAME_PREFIX) : -len(INI_NAME_SUFFIX)]
-                for fname in os.listdir(self._layouts_dir)
+                for fname in os.listdir(LAYOUTS_DIR)
                 if fname.startswith(INI_NAME_PREFIX)
                 and fname.endswith(INI_NAME_SUFFIX)
             ]
@@ -125,7 +129,7 @@ class DashboardLayoutManager:
             Absolute path to the INI file
         """
         return os.path.join(
-            self._layouts_dir, f"{INI_NAME_PREFIX}{name}{INI_NAME_SUFFIX}"
+            LAYOUTS_DIR, f"{INI_NAME_PREFIX}{name}{INI_NAME_SUFFIX}"
         )
 
     def validate_ini(self, filepath: str) -> bool:
@@ -145,7 +149,7 @@ class DashboardLayoutManager:
             cp = ConfigParser()
             cp.read(filepath)
 
-            # Check for required section
+            # Check for required sections
             if SECTION_LAYOUT not in cp:
                 LOG.warning("Missing %s section in %s", SECTION_LAYOUT, filepath)
                 return False
@@ -179,9 +183,6 @@ class DashboardLayoutManager:
 
         Returns:
             True if created successfully, False if name exists or error
-
-        Raises:
-            LayoutValidationError: If source layout is invalid
         """
         path = self.ini_path(name)
 
@@ -195,19 +196,25 @@ class DashboardLayoutManager:
                 # Copy from existing layout
                 src_path = self.ini_path(from_name)
                 if not self.validate_ini(src_path):
-                    raise LayoutValidationError(
-                        f"Source layout {from_name} is invalid"
-                    )
+                    LOG.warning("Source layout %s is invalid", from_name)
+                    return False
                 shutil.copyfile(src_path, path)
+                # Update environment metadata
+                cp = ConfigParser()
+                cp.read(path)
+                self._update_environment_metadata(cp)
+                self.save_ini(name, cp)
             else:
-                # Create from default template
-                with open(path, "w", encoding="utf-8") as f:
-                    f.write(_DEFAULT_LAYOUT)
+                # Create from default template with current environment
+                cp = ConfigParser()
+                cp.read_string(_DEFAULT_LAYOUT)
+                self._update_environment_metadata(cp)
+                self.save_ini(name, cp)
 
             LOG.info("Created layout: %s", name)
             return True
 
-        except (OSError, LayoutValidationError) as err:
+        except OSError as err:
             LOG.error("Error creating layout %s: %s", name, err)
             return False
 
@@ -299,8 +306,10 @@ class DashboardLayoutManager:
         path = self.ini_path(name)
 
         try:
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(_DEFAULT_LAYOUT)
+            cp = ConfigParser()
+            cp.read_string(_DEFAULT_LAYOUT)
+            self._update_environment_metadata(cp)
+            self.save_ini(name, cp)
 
             LOG.info("Reset layout to default: %s", name)
             return True
@@ -396,7 +405,7 @@ class DashboardLayoutManager:
         """
         Save a ConfigParser object to a layout INI file.
 
-        Ensures version header is set correctly before writing.
+        Ensures version header and environment metadata are set correctly.
 
         Args:
             name: Layout name to save
@@ -414,6 +423,9 @@ class DashboardLayoutManager:
 
             cp[SECTION_LAYOUT][KEY_VERSION] = LAYOUTS_VERSION
 
+            # Update environment metadata
+            self._update_environment_metadata(cp)
+
             with open(path, "w", encoding="utf-8") as f:
                 cp.write(f)
 
@@ -423,6 +435,34 @@ class DashboardLayoutManager:
         except OSError as err:
             LOG.error("Error saving layout %s: %s", name, err)
             return False
+
+    def check_compatibility(
+        self, name: str
+    ) -> tuple:
+        """
+        Check layout compatibility with current environment.
+
+        Args:
+            name: Layout name to check
+
+        Returns:
+            Tuple of (is_compatible, issues_list)
+        """
+        cp = self.load_ini(name)
+        if cp is None:
+            return (False, [])
+
+        return self.compat_checker.check_compatibility(cp)
+
+    def _update_environment_metadata(self, cp: ConfigParser) -> None:
+        """Update environment metadata in ConfigParser."""
+        metadata = EnvironmentMetadata()
+
+        if SECTION_ENVIRONMENT not in cp:
+            cp[SECTION_ENVIRONMENT] = {}
+
+        for key, value in metadata.to_dict().items():
+            cp[SECTION_ENVIRONMENT][key] = value
 
     def _load_config(self) -> None:
         """Load main configuration file (active layout tracking)."""
