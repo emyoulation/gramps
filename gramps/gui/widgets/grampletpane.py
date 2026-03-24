@@ -1022,7 +1022,7 @@ class GrampletPane(Gtk.ScrolledWindow):
         self.pane_orientation = kwargs.get("pane_orientation", "horizontal")
         self.splitview = kwargs.get("splitview", None)
         self.default_gramplets = kwargs.get(
-            "default_gramplets", ["Top Surnames", "Welcome"]
+            "default_gramplets", ["What's Next", "Welcome"]
         )
         self.dbstate = dbstate
         self.uistate = uistate
